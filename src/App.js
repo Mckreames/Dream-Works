@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Nav from "./Components/Nav/Nav";
+import Nav from "./Components/DreamWorksNav/DreamWorksNav";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import NotFound from "./Components/NotFound/NotFound";
