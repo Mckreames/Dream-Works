@@ -1,0 +1,8 @@
+section {
+  min-height: 600px;
+  background: linear-gradient(transparent, darkgrey);
+  border: 5px solid black;
+}
+
+.main-event {
+}
