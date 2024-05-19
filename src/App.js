@@ -4,8 +4,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DreamWorksNav from "./Components/DreamWorksNav/DreamWorksNav";
 import Home from "./Components/Home/Home";
-import Footer from "./Components/Footer/Footer";
-import NotFound from "./Components/NotFound/NotFound";
+// import Footer from "./Components/Footer/Footer";
+// import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
   return (
