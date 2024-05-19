@@ -5,8 +5,25 @@ section {
 }
 
 .main-event {
+  position: relative;
+}
+
+.row-quote-1 {
+}
+
+.row-quote-2 {
 }
 
 .splash-quote {
   display: inline-block;
+}
+
+/* Profile sect */
+.profile-pic {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.profile-text {
+  font-size: 18px;
 }
