@@ -6,26 +6,24 @@ export default function Home() {
     <>
       <section className="main-event">
         <h1>Main Event</h1>
-        <row>
-          <col>
+        <row className="align-items-center">
+          <div className="offset-1 col-3 mb-5 splash-quote">
             <h3>Wow!</h3>
             <p>So much wow.</p>
-          </col>
-          <col>
+          </div>
+          <div className="offset-4 col-3 mb-5 splash-quote">
             <h3>Woah!</h3>
             <p>That looks delicious</p>
-          </col>
+          </div>
         </row>
-        <row>
-          <col>
-            <h3>Amaze-Balls!</h3>
-            <p>That is totally amazing</p>
-          </col>
-          <col>
-            <h3>Inspiring!</h3>
-            <p>Awe inspring</p>
-          </col>
-        </row>
+        <div className="offset-1 col-3 mt-5 splash-quote">
+          <h3>Amaze-Balls!</h3>
+          <p>That is totally amazing</p>
+        </div>
+        <div className="offset-4 col-3 mt-5 splash-quote">
+          <h3>Inspiring!</h3>
+          <p>Awe inspring</p>
+        </div>
       </section>
       <section className="profile-sect">
         <h2>Profile</h2>
