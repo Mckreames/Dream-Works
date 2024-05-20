@@ -27,3 +27,17 @@ section {
 .profile-text {
   font-size: 18px;
 }
+
+/* Project Sect */
+
+.card {
+  display: inline-block;
+  background-color: transparent;
+}
+
+.project-img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}

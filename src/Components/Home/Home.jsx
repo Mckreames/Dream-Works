@@ -1,6 +1,9 @@
 import React from "react";
 import "./Home.css";
 import Pug from "./Imgs/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg";
+import Project1 from "./Imgs/thisisengineering-BxZSdcdG3Zc-unsplash.jpg";
+import Project2 from "./Imgs/thisisengineering-V-AEBD99Hak-unsplash.jpg";
+import Project3 from "./Imgs/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg";
 
 export default function Home() {
   return (
@@ -69,6 +72,57 @@ export default function Home() {
       </section>
       <section className="project-preview">
         <h2>Project Preview</h2>
+        <div className="col-3 pt-3 card card1">
+          <img
+            className="col-3 mb-3 project-img"
+            alt="project-img"
+            src={Project1}
+          />
+          <div>
+            <h3>AI Robot</h3>
+            <p>
+              We've all been there... Is that guy Chinese? Japanese? Korean?
+              Taiwanese? We always find ourselves wondering how much better life
+              would be if all the rice munchers were the same ethnicity. Well
+              wonder no more! A robot made using AI to recognize DNA and
+              ethnicity of specific asian cultures for the sole purpose of
+              eliminating all of them except one.
+              <p>"More than one group of Slant-Eyes is too many"</p>
+            </p>
+            <p> ~ Ghandi</p>
+          </div>
+        </div>
+        <div className="col-3 pt-3 card card2">
+          <img className="col-3 project-img" alt="project-img" src={Project2} />
+          <div>
+            <h3>Gay-Dar for Weed</h3>
+            <p>
+              I joined a team of some of the brightest minds this age has to
+              offer to create the "Weed-Dar". It's a gay-dar for weed! Tired of
+              paying masculine weed prices but getting feminine weed instead?
+              Well keep the misogyny alive and strong!
+              <p>"Only straight kush is good kush"</p>
+            </p>
+            <p> ~ Martin Luther King</p>
+          </div>
+        </div>
+        <div className="col-3 pt-3 card card3">
+          <img className="col-3 project-img" alt="project-img" src={Project3} />
+          <div>
+            <h3>Peeping Tom</h3>
+            <p>
+              Armed with motion detection, proximity sensors, 6 different voice
+              types, 8 different levels of racist remarks, two giant lenses for
+              "reconnaissance", and a giant smile for added <i>creepy</i>
+              factor, I bring you the answer to all of your home security/ wet
+              dream needs. The Peeping Tom.
+              <p>
+                "Pudding Pops... And yes, that means what you think it does 😏"
+              </p>
+            </p>
+            <p> ~ Bill Cosby</p>
+          </div>
+        </div>
       </section>
       <section className="contact-sect">
         <h2>Contact Sect</h2>
