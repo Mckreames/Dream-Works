@@ -41,3 +41,20 @@ section {
   object-fit: cover;
   border-radius: 20px;
 }
+
+.card-text {
+  min-height: 250px;
+}
+
+.contact-bubble {
+  border: 1px solid red;
+  min-height: 400px;
+  border-radius: 50px;
+  background: rgb(78, 89, 99);
+}
+
+.contact-left {
+}
+
+.contact-right {
+}

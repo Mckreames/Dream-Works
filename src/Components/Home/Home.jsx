@@ -72,13 +72,13 @@ export default function Home() {
       </section>
       <section className="project-preview">
         <h2>Project Preview</h2>
-        <div className="col-3 pt-3 card card1">
+        <div className="align-self-center col-3 pt-3 card card1">
           <img
             className="col-3 mb-3 project-img"
             alt="project-img"
             src={Project1}
           />
-          <div>
+          <div className="card-text">
             <h3>AI Robot</h3>
             <p>
               We've all been there... Is that guy Chinese? Japanese? Korean?
@@ -92,9 +92,13 @@ export default function Home() {
             <p> ~ Ghandi</p>
           </div>
         </div>
-        <div className="col-3 pt-3 card card2">
-          <img className="col-3 project-img" alt="project-img" src={Project2} />
-          <div>
+        <div className="align-self-center col-3 pt-3 card card2">
+          <img
+            className="col-3 mb-3 project-img"
+            alt="project-img"
+            src={Project2}
+          />
+          <div className="card-text">
             <h3>Gay-Dar for Weed</h3>
             <p>
               I joined a team of some of the brightest minds this age has to
@@ -108,7 +112,7 @@ export default function Home() {
         </div>
         <div className="col-3 pt-3 card card3">
           <img className="col-3 project-img" alt="project-img" src={Project3} />
-          <div>
+          <div className="card-text">
             <h3>Peeping Tom</h3>
             <p>
               Armed with motion detection, proximity sensors, 6 different voice
@@ -126,6 +130,10 @@ export default function Home() {
       </section>
       <section className="contact-sect">
         <h2>Contact Sect</h2>
+        <div className="d-flex">
+          <div className="col-4 offset-1 contact-bubble contact-left"></div>
+          <div className="col-4 offset-2 contact-bubble contact-right"></div>
+        </div>
       </section>
     </>
   );
