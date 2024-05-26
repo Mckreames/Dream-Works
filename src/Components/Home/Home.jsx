@@ -71,8 +71,10 @@ export default function Home() {
         </h3>
       </section>
       <section className="project-preview">
-        <h2>Project Preview</h2>
-        <div className="align-self-center col-3 pt-3 card card1">
+        <row>
+          <h2>Project Preview</h2>
+        </row>
+        <div className="col-3 pt-3 mt-3 card card1">
           <img
             className="col-3 mb-3 project-img"
             alt="project-img"
@@ -92,7 +94,7 @@ export default function Home() {
             <p> ~ Ghandi</p>
           </div>
         </div>
-        <div className="align-self-center col-3 pt-3 card card2">
+        <div className="col-3 pt-3 card card2">
           <img
             className="col-3 mb-3 project-img"
             alt="project-img"
@@ -131,8 +133,15 @@ export default function Home() {
       <section className="contact-sect">
         <h2>Contact Sect</h2>
         <div className="d-flex">
-          <div className="col-4 offset-1 contact-bubble contact-left"></div>
-          <div className="col-4 offset-2 contact-bubble contact-right"></div>
+          <div className="col-4 offset-1 mt-5 mb-5 contact-bubble contact-left">
+            <h2 className="align-self-center justify-self-center">Logo</h2>
+          </div>
+          <div className="col-4 offset-2 mt-5 mb-5 contact-bubble contact-right">
+            <h2 className="">Contact Me</h2>
+            <h4 className="mt-5">Phone</h4>
+            <h4 className="mt-5">Email</h4>
+            <h4 className="mt-5">Social Media</h4>
+          </div>
         </div>
       </section>
     </>

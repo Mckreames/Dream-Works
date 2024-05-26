@@ -1,7 +1,9 @@
 section {
   min-height: 600px;
-  background: linear-gradient(transparent, darkgrey);
-  border: 5px solid black;
+  padding: 30px 0 30px 0;
+  /* background: linear-gradient(transparent, darkgrey); */
+  /* border: 5px solid black; */
+  box-shadow: 5px 5px 10px black;
 }
 
 .main-event {
@@ -22,6 +24,7 @@ section {
 .profile-pic {
   width: 250px;
   border-radius: 50%;
+  box-shadow: 5px 5px 10px black;
 }
 
 .profile-text {
@@ -33,6 +36,10 @@ section {
 .card {
   display: inline-block;
   background-color: transparent;
+  min-height: 600px;
+  box-shadow: 5px 5px 10px black;
+  margin: 0 10px 0 10px;
+  padding: 10px;
 }
 
 .project-img {
