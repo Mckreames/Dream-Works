@@ -20,6 +20,7 @@ export default function Home() {
             <p>That looks delicious</p>
           </div>
         </row>
+        <div className="p-5 box-art"></div>
         <row className="row-quote-2">
           <div className="offset-1 col-3 splash-quote">
             <h3>Amaze-Balls!</h3>
@@ -71,62 +72,68 @@ export default function Home() {
         </h3>
       </section>
       <section className="project-preview">
-        <row>
-          <h2>Project Preview</h2>
-        </row>
-        <div className="col-3 pt-3 mt-3 card card1">
-          <img
-            className="col-3 mb-3 project-img"
-            alt="project-img"
-            src={Project1}
-          />
-          <div className="card-text">
-            <h3>AI Robot</h3>
-            <p>
-              We've all been there... Is that guy Chinese? Japanese? Korean?
-              Taiwanese? We always find ourselves wondering how much better life
-              would be if all the rice munchers were the same ethnicity. Well
-              wonder no more! A robot made using AI to recognize DNA and
-              ethnicity of specific asian cultures for the sole purpose of
-              eliminating all of them except one.
-              <p>"More than one group of Slant-Eyes is too many"</p>
-            </p>
-            <p> ~ Ghandi</p>
-          </div>
-        </div>
-        <div className="col-3 pt-3 card card2">
-          <img
-            className="col-3 mb-3 project-img"
-            alt="project-img"
-            src={Project2}
-          />
-          <div className="card-text">
-            <h3>Gay-Dar for Weed</h3>
-            <p>
-              I joined a team of some of the brightest minds this age has to
-              offer to create the "Weed-Dar". It's a gay-dar for weed! Tired of
-              paying masculine weed prices but getting feminine weed instead?
-              Well keep the misogyny alive and strong!
-              <p>"Only straight kush is good kush"</p>
-            </p>
-            <p> ~ Martin Luther King</p>
-          </div>
-        </div>
-        <div className="col-3 pt-3 card card3">
-          <img className="col-3 project-img" alt="project-img" src={Project3} />
-          <div className="card-text">
-            <h3>Peeping Tom</h3>
-            <p>
-              Armed with motion detection, proximity sensors, 6 different voice
-              types, 8 different levels of racist remarks, two giant lenses for
-              "reconnaissance", and a giant smile for added <i>creepy</i>
-              factor, I bring you the answer to all of your home security/ wet
-              dream needs. The Peeping Tom.
+        <h2>Project Preview</h2>
+        <div className="d-flex justify-content-between mt-4">
+          <div className="col-4 pt-3 card card1">
+            <img
+              className="col-3 mb-3 p-3 project-img"
+              alt="project-img"
+              src={Project1}
+            />
+            <div className="card-text">
+              <h3>AI Robot</h3>
               <p>
-                "Pudding Pops... And yes, that means what you think it does 😏"
+                We've all been there... Is that guy Chinese? Japanese? Korean?
+                Taiwanese? We always find ourselves wondering how much better
+                life would be if all the rice munchers were the same ethnicity.
+                Well wonder no more! A robot made using AI to recognize DNA and
+                ethnicity of specific asian cultures for the sole purpose of
+                eliminating all of them except one.
+                <p>"More than one group of Slant-Eyes is too many"</p>
               </p>
-            </p>
-            <p> ~ Bill Cosby</p>
+              <p> ~ Ghandi</p>
+            </div>
+          </div>
+          <div className="pt-3 card card2">
+            <img
+              className="col-3 mb-3 p-3 project-img"
+              alt="project-img"
+              src={Project2}
+            />
+            <div className="card-text">
+              <h3>Gay-Dar for Weed</h3>
+              <p>
+                I joined a team of some of the brightest minds this age has to
+                offer to create the "Weed-Dar". It's a gay-dar for weed! Tired
+                of paying masculine weed prices but getting feminine weed
+                instead? Well keep the misogyny alive and strong!
+                <p>"Only straight kush is good kush"</p>
+              </p>
+              <p> ~ Martin Luther King</p>
+            </div>
+          </div>
+          <div className="col-4 pt-3 card card3">
+            <img
+              className="col-3 p-3 project-img"
+              alt="project-img"
+              src={Project3}
+            />
+            <div className="card-text">
+              <h3>Peeping Tom</h3>
+              <p>
+                Armed with motion detection, proximity sensors, 6 different
+                voice types, 8 different levels of racist remarks, two giant
+                lenses for "reconnaissance", and a giant smile for added{" "}
+                <i>creepy</i>
+                factor, I bring you the answer to all of your home security/ wet
+                dream needs. The Peeping Tom.
+                <p>
+                  "Pudding Pops... And yes, that means what you think it does
+                  😏"
+                </p>
+              </p>
+              <p> ~ Bill Cosby</p>
+            </div>
           </div>
         </div>
       </section>
@@ -134,10 +141,10 @@ export default function Home() {
         <h2>Contact Sect</h2>
         <div className="d-flex">
           <div className="col-4 offset-1 mt-5 mb-5 contact-bubble contact-left">
-            <h2 className="align-self-center justify-self-center">Logo</h2>
+            <h2 className="mt-3 align-self-center justify-self-center">Logo</h2>
           </div>
           <div className="col-4 offset-2 mt-5 mb-5 contact-bubble contact-right">
-            <h2 className="">Contact Me</h2>
+            <h2 className="mt-3">Contact Me</h2>
             <h4 className="mt-5">Phone</h4>
             <h4 className="mt-5">Email</h4>
             <h4 className="mt-5">Social Media</h4>
