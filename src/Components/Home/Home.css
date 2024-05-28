@@ -40,8 +40,10 @@ section {
 /* Profile sect */
 .profile-pic {
   width: 250px;
-  border-radius: 50%;
-  box-shadow: 5px 5px 10px black;
+  border-radius: 180px 180px 180px 180px;
+  /* background: linear-gradient(0deg, rgb(253, 122, 0), rgba(61, 60, 60, 0.747)); */
+  background: radial-gradient(steelblue, rgba(61, 60, 60, 0.747) 70%);
+  box-shadow: 0 0 10px steelblue;
 }
 
 .profile-text {

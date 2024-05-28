@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -6,7 +7,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -26,7 +26,7 @@ export default function DreamWorksNav() {
 
   return (
     <>
-      <div>
+      <div className="shadow">
         <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">
             <img className="ms-3 me-3 logo" alt="app-logo" src={logo}></img>
@@ -35,21 +35,22 @@ export default function DreamWorksNav() {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="me-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Home</NavLink>
+                <NavLink to="/" className="me-4 nav-btn">
+                  Home
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>Projects</NavLink>
+                <NavLink to="/Projects/" className="me-4 nav-btn">
+                  Projects
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>Activity</NavLink>
+                <NavLink to="/Activities/" className="me-4 nav-btn">
+                  Activity
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink>Resume</NavLink>
-              </NavItem>
-              <NavItem>
-                {/* <NavLink href="https://github.com/reactstrap/reactstrap">
-                  GitHub
-                </NavLink> */}
+                <NavLink className="me-4 nav-btn">Resume</NavLink>
               </NavItem>
               {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -64,7 +65,12 @@ export default function DreamWorksNav() {
               </UncontrolledDropdown> */}
             </Nav>
             <NavbarText>
-              <img className="me-4 media-link" alt="LinkedIn" src={linkedIn} />
+              <img
+                className="me-4 media-link"
+                alt="LinkedIn"
+                href="https://www.linkedin.com/in/asdavenus15/"
+                src={linkedIn}
+              />
               <img className="me-4 media-link" alt="Gmail" src={gmail} />
               <img className="me-5 media-link" alt="GitHub" src={github} />
             </NavbarText>

@@ -1,12 +1,15 @@
 import React from "react";
 import "./Home.css";
 import logo from "./Imgs/GetImage.jpeg";
-import Pug from "./Imgs/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg";
+import profilePic from "./Imgs/frontal-color-removebg-preview.png";
 import Project1 from "./Imgs/MatLab.png";
 import Project2 from "./Imgs/thisisengineering-V-AEBD99Hak-unsplash.jpg";
 import Project3 from "./Imgs/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg";
 import activityImg from "./Imgs/project-img.png";
 import resume from "./Imgs/Portfolio Screenshot.png";
+import linkedIn from "./Imgs/icons8-linkedin-48.png";
+import gmail from "./Imgs/icons8-gmail-48.png";
+import github from "./Imgs/icons8-github-48.png";
 
 export default function Home() {
   return (
@@ -38,8 +41,8 @@ export default function Home() {
         </row>
       </section>
       <section className="profile-sect">
-        <h2>Profile</h2>
-        <img className="mt-3 profile-pic" alt="profile-pic" src={Pug} />
+        <h2>About Me</h2>
+        <img className="mt-3 profile-pic" alt="profile-pic" src={profilePic} />
         <h3 className="offset-3 col-6 mt-4 profile-text">
           Hello! My name is Austin Davenport and I am currently an installation
           technician with University of Tennessee Knoxville. I am also a Senior
@@ -53,7 +56,7 @@ export default function Home() {
         </h3>
       </section>
       <section className="project-preview">
-        <h2>Project Preview</h2>
+        <h2>Try Your Best to Keep Up!</h2>
         <div className="offset-2 d-flex mt-4">
           <div className="col-3 pt-3 card card1">
             <img
@@ -119,7 +122,7 @@ export default function Home() {
         </div>
       </section>
       <section className="contact-sect">
-        <h2>Contact Sect</h2>
+        <h2>Connect With Me</h2>
         <div className="d-flex">
           <div className="col-4 offset-1 mt-5 mb-5 contact-bubble contact-left">
             <img className="contact-logo" alt="site-logo" src={logo} />
@@ -127,9 +130,13 @@ export default function Home() {
           </div>
           <div className="col-4 offset-2 mt-5 mb-5 contact-bubble contact-right">
             <h2 className="mt-3">Contact Me</h2>
-            <h4 className="mt-5">Phone</h4>
-            <h4 className="mt-5">Email</h4>
-            <h4 className="mt-5">Social Media</h4>
+            <h4 className="mt-5">Mobile: (805) 844-6973</h4>
+            <h4 className="mt-5">Email: </h4>
+            <div className="mt-5">
+              <img className=" media-link" alt="LinkedIn" src={linkedIn} />
+              <img className="ms-5 me-5 media-link" alt="Gmail" src={gmail} />
+              <img className=" media-link" alt="GitHub" src={github} />
+            </div>
           </div>
         </div>
       </section>

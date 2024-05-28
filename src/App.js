@@ -4,6 +4,9 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DreamWorksNav from "./Components/DreamWorksNav/DreamWorksNav";
 import Home from "./Components/Home/Home";
+import AboutMe from "./Components/AboutMe/AboutMe";
+import Projects from "./Components/Projects/Projects";
+import Activities from "./Components/Activities/Activities";
 import Footer from "./Components/Footer/Footer";
 // import NotFound from "./Components/NotFound/NotFound";
 
@@ -14,6 +17,9 @@ function App() {
         <DreamWorksNav />
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/about-me" element={<AboutMe />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/activities" element={<Activities />}></Route>
           {/* <Route path="*" element={<NotFound />}></Route> */}
         </Routes>
         <Footer />
