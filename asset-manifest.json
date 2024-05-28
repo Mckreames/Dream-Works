@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.ae68cbec.css",
-    "main.js": "/Dream-Works/static/js/main.cb4d95d2.js",
+    "main.css": "/Dream-Works/static/css/main.f8c9378e.css",
+    "main.js": "/Dream-Works/static/js/main.3b4d3a8b.js",
     "static/media/penny.png": "/Dream-Works/static/media/penny.8c68c84627a79dd32886.png",
     "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
     "static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg": "/Dream-Works/static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.9f4b65375ecd4d3db743.jpg",
-    "static/media/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg": "/Dream-Works/static/media/charlesdeluvio-Mv9hjnEUHR4-unsplash.69eafbd40f5552db0873.jpg",
     "static/media/MatLab.png": "/Dream-Works/static/media/MatLab.558ca90a47e60d83befc.png",
+    "static/media/profile-color-removebg-preview.png": "/Dream-Works/static/media/profile-color-removebg-preview.983116a98b52b8b9e5e2.png",
     "static/media/project-img.png": "/Dream-Works/static/media/project-img.6ee9468c5c7834d3519c.png",
+    "static/media/frontal-color-removebg-preview.png": "/Dream-Works/static/media/frontal-color-removebg-preview.ef1cff638e65c811db92.png",
+    "static/media/Harbor-Freight.png": "/Dream-Works/static/media/Harbor-Freight.3f4087bdd8ec1ad9b744.png",
     "static/media/Portfolio Screenshot.png": "/Dream-Works/static/media/Portfolio Screenshot.9570cef3d019954199f7.png",
     "static/media/GetImage.jpeg": "/Dream-Works/static/media/GetImage.da3d3f3976497c9f5d06.jpeg",
+    "static/media/University-of-Tennessee.png": "/Dream-Works/static/media/University-of-Tennessee.22bdd85d0cb1135cb42e.png",
+    "static/media/Teledyne.png": "/Dream-Works/static/media/Teledyne.bf0a2b51a1da32e9fcbb.png",
+    "static/media/Denso.png": "/Dream-Works/static/media/Denso.9b149231387e32249108.png",
     "index.html": "/Dream-Works/index.html",
-    "main.ae68cbec.css.map": "/Dream-Works/static/css/main.ae68cbec.css.map",
-    "main.cb4d95d2.js.map": "/Dream-Works/static/js/main.cb4d95d2.js.map"
+    "main.f8c9378e.css.map": "/Dream-Works/static/css/main.f8c9378e.css.map",
+    "main.3b4d3a8b.js.map": "/Dream-Works/static/js/main.3b4d3a8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae68cbec.css",
-    "static/js/main.cb4d95d2.js"
+    "static/css/main.f8c9378e.css",
+    "static/js/main.3b4d3a8b.js"
   ]
 }
