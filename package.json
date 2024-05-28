@@ -1,5 +1,6 @@
 {
-  "name": "dream-works",
+  "homepage": "https://mckreames.github.io/Dream-Works",
+  "name": "Dream-Works",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

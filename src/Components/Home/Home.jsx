@@ -121,11 +121,11 @@ export default function Home() {
       <section className="contact-sect">
         <h2>Contact Sect</h2>
         <div className="d-flex">
-          <div className="col-4 offset-2 mt-5 mb-5 contact-bubble contact-left">
+          <div className="col-4 offset-1 mt-5 mb-5 contact-bubble contact-left">
             <img className="contact-logo" alt="site-logo" src={logo} />
             <h2 className="contact-slogan">Dreaming Up Technology</h2>
           </div>
-          <div className="col-4 offset-1 mt-5 mb-5 contact-bubble contact-right">
+          <div className="col-4 offset-2 mt-5 mb-5 contact-bubble contact-right">
             <h2 className="mt-3">Contact Me</h2>
             <h4 className="mt-5">Phone</h4>
             <h4 className="mt-5">Email</h4>
