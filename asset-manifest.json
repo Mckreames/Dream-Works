@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe6ae0ef.css",
-    "main.js": "/static/js/main.4d46f289.js",
-    "static/media/penny.png": "/static/media/penny.8c68c84627a79dd32886.png",
-    "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
-    "static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg": "/static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.9f4b65375ecd4d3db743.jpg",
-    "static/media/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg": "/static/media/charlesdeluvio-Mv9hjnEUHR4-unsplash.69eafbd40f5552db0873.jpg",
-    "static/media/MatLab.png": "/static/media/MatLab.558ca90a47e60d83befc.png",
-    "static/media/project-img.png": "/static/media/project-img.6ee9468c5c7834d3519c.png",
-    "static/media/Portfolio Screenshot.png": "/static/media/Portfolio Screenshot.9570cef3d019954199f7.png",
-    "static/media/GetImage.jpeg": "/static/media/GetImage.da3d3f3976497c9f5d06.jpeg",
-    "index.html": "/index.html",
-    "main.fe6ae0ef.css.map": "/static/css/main.fe6ae0ef.css.map",
-    "main.4d46f289.js.map": "/static/js/main.4d46f289.js.map"
+    "main.css": "/Dream-Works/static/css/main.ae68cbec.css",
+    "main.js": "/Dream-Works/static/js/main.cb4d95d2.js",
+    "static/media/penny.png": "/Dream-Works/static/media/penny.8c68c84627a79dd32886.png",
+    "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
+    "static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg": "/Dream-Works/static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.9f4b65375ecd4d3db743.jpg",
+    "static/media/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg": "/Dream-Works/static/media/charlesdeluvio-Mv9hjnEUHR4-unsplash.69eafbd40f5552db0873.jpg",
+    "static/media/MatLab.png": "/Dream-Works/static/media/MatLab.558ca90a47e60d83befc.png",
+    "static/media/project-img.png": "/Dream-Works/static/media/project-img.6ee9468c5c7834d3519c.png",
+    "static/media/Portfolio Screenshot.png": "/Dream-Works/static/media/Portfolio Screenshot.9570cef3d019954199f7.png",
+    "static/media/GetImage.jpeg": "/Dream-Works/static/media/GetImage.da3d3f3976497c9f5d06.jpeg",
+    "index.html": "/Dream-Works/index.html",
+    "main.ae68cbec.css.map": "/Dream-Works/static/css/main.ae68cbec.css.map",
+    "main.cb4d95d2.js.map": "/Dream-Works/static/js/main.cb4d95d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe6ae0ef.css",
-    "static/js/main.4d46f289.js"
+    "static/css/main.ae68cbec.css",
+    "static/js/main.cb4d95d2.js"
   ]
 }
