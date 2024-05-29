@@ -65,14 +65,30 @@ export default function DreamWorksNav() {
               </UncontrolledDropdown> */}
             </Nav>
             <NavbarText>
-              <img
-                className="me-4 media-link"
-                alt="LinkedIn"
+              <a
                 href="https://www.linkedin.com/in/asdavenus15/"
-                src={linkedIn}
-              />
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="me-4 media-link"
+                  alt="LinkedIn"
+                  src={linkedIn}
+                />
+              </a>
               <img className="me-4 media-link" alt="Gmail" src={gmail} />
-              <img className="me-5 media-link" alt="GitHub" src={github} />
+              <a
+                href="https://github.com/WingingItUS"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="me-5 media-link"
+                  alt="GitHub"
+                  href="https://github.com/WingingItUS"
+                  src={github}
+                />
+              </a>
             </NavbarText>
           </Collapse>
         </Navbar>

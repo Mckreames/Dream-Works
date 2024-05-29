@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import logo from "./Imgs/GetImage.jpeg";
+import brick from "./Vids/Brick.mp4";
 import profilePic from "./Imgs/frontal-color-removebg-preview.png";
 import Project1 from "./Imgs/MatLab.png";
 import Project2 from "./Imgs/thisisengineering-V-AEBD99Hak-unsplash.jpg";
@@ -14,27 +15,29 @@ import github from "./Imgs/icons8-github-48.png";
 export default function Home() {
   return (
     <>
-      <section className="shadow main-event">
-        <h1 className="main-title">Main Event</h1>
+      <section className="pt-5 shadow main-event">
+        <h1 className="main-title"></h1>
+        <video autoPlay muted loop className="background-video">
+          <source src={brick} type="video/mp4" />
+          Your browser does not support this video
+        </video>
         <row className="row-quote-1">
-          <div className="offset-1 col-2 splash-quote">
+          <div className="col-2 splash-quote">
             <h3>Wow!</h3>
             <p>So Shiny!</p>
           </div>
-          <div className="offset-5 col-2 splash-quote">
+          <div className="offset-7 col-2 splash-quote">
             <h3>Woah!</h3>
             <p>So Rustic!</p>
           </div>
         </row>
-        <div className="p-5 box-art">
-          {/* <img className="splash-pic" alt="splash-pic" src={Splash} /> */}
-        </div>
+        <div className="m-5 p-5 box-art"></div>
         <row className="row-quote-2">
-          <div className="offset-1 col-2 splash-quote">
+          <div className="col-2 splash-quote">
             <h3>Amaze-Balls!</h3>
             <p>Such a bold statement!</p>
           </div>
-          <div className="offset-5 col-2 me-auto splash-quote">
+          <div className="offset-7 col-2 me-auto splash-quote">
             <h3>Inspiring!</h3>
             <p>#LitYoloSwag69420</p>
           </div>
