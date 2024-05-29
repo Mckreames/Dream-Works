@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.f8c9378e.css",
-    "main.js": "/Dream-Works/static/js/main.3b4d3a8b.js",
-    "static/media/penny.png": "/Dream-Works/static/media/penny.8c68c84627a79dd32886.png",
+    "main.css": "/Dream-Works/static/css/main.fbd398ba.css",
+    "main.js": "/Dream-Works/static/js/main.0a32ade2.js",
     "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
     "static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg": "/Dream-Works/static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.9f4b65375ecd4d3db743.jpg",
+    "static/media/Brick.mp4": "/Dream-Works/static/media/Brick.8cc6b4c5ce7d95001bbc.mp4",
     "static/media/MatLab.png": "/Dream-Works/static/media/MatLab.558ca90a47e60d83befc.png",
     "static/media/profile-color-removebg-preview.png": "/Dream-Works/static/media/profile-color-removebg-preview.983116a98b52b8b9e5e2.png",
     "static/media/project-img.png": "/Dream-Works/static/media/project-img.6ee9468c5c7834d3519c.png",
@@ -16,11 +16,11 @@
     "static/media/Teledyne.png": "/Dream-Works/static/media/Teledyne.bf0a2b51a1da32e9fcbb.png",
     "static/media/Denso.png": "/Dream-Works/static/media/Denso.9b149231387e32249108.png",
     "index.html": "/Dream-Works/index.html",
-    "main.f8c9378e.css.map": "/Dream-Works/static/css/main.f8c9378e.css.map",
-    "main.3b4d3a8b.js.map": "/Dream-Works/static/js/main.3b4d3a8b.js.map"
+    "main.fbd398ba.css.map": "/Dream-Works/static/css/main.fbd398ba.css.map",
+    "main.0a32ade2.js.map": "/Dream-Works/static/js/main.0a32ade2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8c9378e.css",
-    "static/js/main.3b4d3a8b.js"
+    "static/css/main.fbd398ba.css",
+    "static/js/main.0a32ade2.js"
   ]
 }
