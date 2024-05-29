@@ -43,6 +43,25 @@ export default function Home() {
           </div>
         </row>
       </section>
+      {/* <section className="d-flex align-items-center profile-sect">
+        <div className="offset-2 col-3 ps-5 pe-5 about-text">
+          <h1 className="mb-3">Hi, I am Austin</h1>
+          <h4 className="mb-3">Mechanical Engineer</h4>
+          <p className="mb-3">
+            An enthusiastic and passionate engineer with an eye for detail, a
+            hunger to learn more, and a focus to produce quality work
+          </p>
+          <button className="p-3 me-2 contact-btn">Contact Me 💨</button>
+          <button className="p-3 about-btn">About Me 👷🏽‍♂️</button>
+        </div>
+        <div className="offset-2">
+          <img
+            className="mt-3 profile-pic-2"
+            alt="profile-pic"
+            src={profilePic}
+          />
+        </div>
+      </section> */}
       <section className="profile-sect">
         <h2>About Me</h2>
         <img className="mt-3 profile-pic" alt="profile-pic" src={profilePic} />
@@ -58,7 +77,7 @@ export default function Home() {
           the task of developing quieter and faster engines.
         </h3>
       </section>
-      <section className="project-preview">
+      <section className="project-sect">
         <h2>Try Your Best to Keep Up!</h2>
         <div className="offset-2 d-flex mt-4">
           <div className="col-3 pt-3 card card1">
@@ -134,11 +153,34 @@ export default function Home() {
           <div className="col-4 offset-2 mt-5 mb-5 contact-bubble contact-right">
             <h2 className="mt-3">Contact Me</h2>
             <h4 className="mt-5">Mobile: (805) 844-6973</h4>
-            <h4 className="mt-5">Email: </h4>
+            <h4 className="mt-5">Email: Asdaven15@gmail.com</h4>
             <div className="mt-5">
-              <img className=" media-link" alt="LinkedIn" src={linkedIn} />
-              <img className="ms-5 me-5 media-link" alt="Gmail" src={gmail} />
-              <img className=" media-link" alt="GitHub" src={github} />
+              <a
+                href="https://www.linkedin.com/in/asdavenus15/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="me-5 media-link"
+                  alt="LinkedIn"
+                  src={linkedIn}
+                />
+              </a>
+              <a href="mailto:Asdaven15@gmail.com?subject=Job%20Inquiry">
+                <img className="me-5 media-link" alt="Gmail" src={gmail} />
+              </a>
+              <a
+                href="https://github.com/WingingItUS"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="media-link"
+                  alt="GitHub"
+                  href="https://github.com/WingingItUS"
+                  src={github}
+                />
+              </a>
             </div>
           </div>
         </div>

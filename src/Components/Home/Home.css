@@ -53,12 +53,48 @@ section {
 }
 
 /* Profile sect */
+
+.about-text {
+  border-radius: 10px;
+  border-left: 5px double steelblue;
+  border-right: 5px double steelblue;
+}
+
+.contact-btn {
+  border-radius: 20px;
+  background: rgb(78, 89, 99);
+}
+
+.contact-btn:hover {
+  background: transparent;
+}
+
+.about-btn {
+  background: transparent;
+  border-radius: 20px;
+}
+
+.about-btn:hover {
+  background: rgb(78, 89, 99);
+}
+
 .profile-pic {
   width: 250px;
   border-radius: 180px 180px 180px 180px;
-  /* background: linear-gradient(0deg, rgb(253, 122, 0), rgba(61, 60, 60, 0.747)); */
+  /* border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%; */
   background: radial-gradient(steelblue, rgba(61, 60, 60, 0.747) 70%);
+  /* background: steelblue; */
   box-shadow: 0 0 10px steelblue;
+}
+
+.profile-pic-2 {
+  width: 450px;
+  border-radius: 180px 180px 180px 180px;
+  /* border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%; */
+  /* background: radial-gradient(steelblue, rgba(61, 60, 60, 0.747) 70%); */
+  background: radial-gradient(steelblue, #212529 70%);
+  /* background: steelblue; */
+  /* box-shadow: 0 0 10px steelblue; */
 }
 
 .profile-text {
@@ -66,6 +102,10 @@ section {
 }
 
 /* Project Sect */
+
+.project-sect {
+  background-color: #181c20;
+}
 
 .card {
   display: inline-block;
