@@ -43,6 +43,7 @@ section {
   display: inline-block;
   border: 3px solid black;
   border-radius: 20px;
+  color: beige;
   /* background: rgba(61, 60, 60, 0.747); */
   background: rgb(78, 89, 99);
   z-index: 1000;
@@ -138,21 +139,29 @@ section {
   min-height: 250px;
 }
 
+/* Contact Sect */
+
+.contact-sect {
+  max-height: fit-content;
+  min-height: 100px;
+  background-color: #101113;
+}
+
 .contact-bubble {
-  border: 5px solid grey;
-  min-height: 400px;
+  /* border: 5px solid grey; */
+  min-height: 100px;
   border-radius: 50px;
-  background: rgb(78, 89, 99);
-  box-shadow: 5px 5px 10px black;
+  /* background: rgb(78, 89, 99); */
+  /* box-shadow: 0px 0px 15px black; */
 }
 
 .contact-left {
-  background-color: #fdfdf3;
+  /* background-color: #fdfdf3; */
 }
 
 .contact-logo {
   border-radius: 50px;
-  width: 300px;
+  width: 200px;
 }
 
 .contact-slogan {
@@ -161,4 +170,21 @@ section {
 }
 
 .contact-right {
+  text-align: left;
+}
+
+.media-link {
+  transition: box-shadow 0.5s ease;
+}
+
+.media-link:hover {
+  box-shadow: 0px 0px 20px steelblue;
+}
+
+.border-shadow-1 {
+  border-radius: 50%;
+}
+
+.border-shadow-2 {
+  border-radius: 20%;
 }
