@@ -76,7 +76,7 @@ export default function DreamWorksNav() {
                   src={linkedIn}
                 />
               </a>
-              <a href="mailto:Asdaven15@gmail.com?subject=Job%20Inquiry">
+              <a href="mailto:Asdaven15@gmail.com?subject=Portfolio%20Inquiry">
                 <img className="me-4 media-link" alt="Gmail" src={gmail} />
               </a>
               <a

@@ -28,23 +28,32 @@ export default function Home() {
         </video>
         <row className="row-quote-1">
           <div className="col-2 splash-quote">
-            <h3>Wow!</h3>
-            <p>So Shiny!</p>
+            <h3>PRECISION</h3>
+            <p>This 3d model is a 1:1 scale of a LEGO brick.</p>
           </div>
           <div className="offset-7 col-2 splash-quote">
-            <h3>Woah!</h3>
-            <p>So Rustic!</p>
+            <h3>ASSOCIATION</h3>
+            <p>
+              Using the modeling software, the brick is given properties
+              proportional to its real world counterpart
+            </p>
           </div>
         </row>
         <div className="m-5 p-5 box-art"></div>
         <row className="row-quote-2">
           <div className="col-2 splash-quote">
-            <h3>Amaze-Balls!</h3>
-            <p>Such a bold statement!</p>
+            <h3>SIMULATION</h3>
+            <p>
+              With this model, physical stress simulations will Reflect accurate
+              approximations of internal forces.
+            </p>
           </div>
           <div className="offset-7 col-2 me-auto splash-quote">
-            <h3>Inspiring!</h3>
-            <p>#LitYoloSwag69420</p>
+            <h3>APPLICATION</h3>
+            <p>
+              Preforming these steps show that any project with Great care can
+              produce quality and interesting results.
+            </p>
           </div>
         </row>
       </section>
@@ -172,7 +181,7 @@ export default function Home() {
                   src={linkedIn}
                 />
               </a>
-              <a href="mailto:Asdaven15@gmail.com?subject=Job%20Inquiry">
+              <a href="mailto:Asdaven15@gmail.com?subject=Portfolio%20Inquiry">
                 <img className="me-5 media-link" alt="Gmail" src={gmail} />
               </a>
               <a

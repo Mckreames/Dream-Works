@@ -48,6 +48,9 @@ section {
   z-index: 1000;
 }
 
+.splash-quote:hover {
+}
+
 .splash-pic {
   width: 100%;
 }
