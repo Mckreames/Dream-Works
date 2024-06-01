@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.bb40deba.css",
-    "main.js": "/Dream-Works/static/js/main.08aa8e6c.js",
+    "main.css": "/Dream-Works/static/css/main.050993c3.css",
+    "main.js": "/Dream-Works/static/js/main.99c7d2b1.js",
     "static/media/Resume-Screenshot.png": "/Dream-Works/static/media/Resume-Screenshot.18a54def7b0fc9712611.png",
     "static/media/Resume-Screenshot2.png": "/Dream-Works/static/media/Resume-Screenshot2.820c5bfcc81f1a204abf.png",
     "static/media/Brick.mp4": "/Dream-Works/static/media/Brick.8cc6b4c5ce7d95001bbc.mp4",
@@ -16,11 +16,11 @@
     "static/media/Teledyne.png": "/Dream-Works/static/media/Teledyne.bf0a2b51a1da32e9fcbb.png",
     "static/media/Denso.png": "/Dream-Works/static/media/Denso.9b149231387e32249108.png",
     "index.html": "/Dream-Works/index.html",
-    "main.bb40deba.css.map": "/Dream-Works/static/css/main.bb40deba.css.map",
-    "main.08aa8e6c.js.map": "/Dream-Works/static/js/main.08aa8e6c.js.map"
+    "main.050993c3.css.map": "/Dream-Works/static/css/main.050993c3.css.map",
+    "main.99c7d2b1.js.map": "/Dream-Works/static/js/main.99c7d2b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb40deba.css",
-    "static/js/main.08aa8e6c.js"
+    "static/css/main.050993c3.css",
+    "static/js/main.99c7d2b1.js"
   ]
 }
