@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import logo from "./Imgs/GetImage.jpeg";
 import brick from "./Vids/Brick.mp4";
@@ -11,8 +11,13 @@ import resume from "./Imgs/Portfolio Screenshot.png";
 import linkedIn from "./Imgs/icons8-linkedin-48.png";
 import gmail from "./Imgs/icons8-gmail-48.png";
 import github from "./Imgs/icons8-github-48.png";
+import PortfolioModal from "../PortfolioModal/PortfolioModal";
 
 export default function Home() {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const toggleModal = () => setModalOpen(!modalOpen);
+
   return (
     <>
       <section className="pt-5 shadow main-event">
@@ -118,7 +123,7 @@ export default function Home() {
               <p> ~ Martin Luther King</p>
             </div>
           </div>
-          <div className="col-3 pt-3 card card3">
+          <div className="col-3 pt-3 card card3" onClick={toggleModal}>
             <img
               className="col-3 p-3 project-img"
               alt="project-img"
@@ -143,6 +148,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <PortfolioModal isOpen={modalOpen} toggle={toggleModal} />
       <section className="contact-sect">
         <h2>Connect With Me</h2>
         <div className="d-flex">
