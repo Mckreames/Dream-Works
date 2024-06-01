@@ -2,6 +2,7 @@ import React from "react";
 import { Modal, ModalHeader, ModalBody } from "reactstrap";
 import "./PortfolioModal.css";
 import resume from "../Home/Imgs/Portfolio Screenshot.png";
+// import resume from "./Imgs/Portfolio-Screenshot.png";
 
 const CustomModal = ({ isOpen, toggle }) => {
   return (
@@ -18,8 +19,8 @@ const CustomModal = ({ isOpen, toggle }) => {
       <ModalBody className="dark-mode-body">
         <h1 className="modal">Resume</h1>
         <a
-          href="./Imgs/Portfolio Screenshot.png"
-          download="Portfolio Screenshot.png"
+          src={resume}
+          download="Austin-Davenport-Portfolio.png"
           className="offset-10 col-2 mb-3 btn btn-primary"
         >
           Download Resume

@@ -18,6 +18,7 @@ import "./DreamWorksNav.css";
 import linkedIn from "./Imgs/icons8-linkedin-48.png";
 import gmail from "./Imgs/icons8-gmail-48.png";
 import github from "./Imgs/icons8-github-48.png";
+import portfolio from "../PortfolioModal/Imgs/Portfolio-Screenshot.png";
 
 export default function DreamWorksNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,7 +51,13 @@ export default function DreamWorksNav() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="me-4 nav-btn">Resume</NavLink>
+                <NavLink
+                  className="me-4 nav-btn"
+                  src={portfolio}
+                  download="Austin-Davenport-Portfolio.png"
+                >
+                  Resume
+                </NavLink>
               </NavItem>
               {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
