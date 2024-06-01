@@ -8,10 +8,11 @@ import Project2 from "./Imgs/thisisengineering-V-AEBD99Hak-unsplash.jpg";
 import Project3 from "./Imgs/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg";
 import activityImg from "./Imgs/project-img.png";
 import resume from "./Imgs/Portfolio Screenshot.png";
-import linkedIn from "./Imgs/icons8-linkedin-48.png";
-import gmail from "./Imgs/icons8-gmail-48.png";
-import github from "./Imgs/icons8-github-48.png";
+import linkedIn from "./Imgs/Stencil-LinkedIn.png";
+import gmail from "./Imgs/Stencil-Gmail.png";
+import github from "./Imgs/Stencil-github.png";
 import PortfolioModal from "../PortfolioModal/PortfolioModal";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -57,7 +58,7 @@ export default function Home() {
           </div>
         </row>
       </section>
-      {/* <section className="d-flex align-items-center profile-sect">
+      <section className="d-flex align-items-center profile-sect">
         <div className="offset-2 col-3 ps-5 pe-5 about-text">
           <h1 className="mb-3">Hi, I am Austin</h1>
           <h4 className="mb-3">Mechanical Engineer</h4>
@@ -75,8 +76,8 @@ export default function Home() {
             src={profilePic}
           />
         </div>
-      </section> */}
-      <section className="profile-sect">
+      </section>
+      {/* <section className="profile-sect">
         <h2>About Me</h2>
         <img className="mt-3 profile-pic" alt="profile-pic" src={profilePic} />
         <h3 className="offset-3 col-6 mt-4 profile-text">
@@ -90,7 +91,7 @@ export default function Home() {
           deals with manned or unmanned aircraft with a focus on propulsion and
           the task of developing quieter and faster engines.
         </h3>
-      </section>
+      </section> */}
       <section className="project-sect">
         <h2>Try Your Best to Keep Up!</h2>
         <div className="offset-2 d-flex mt-4">
@@ -159,30 +160,34 @@ export default function Home() {
       </section>
       <PortfolioModal isOpen={modalOpen} toggle={toggleModal} />
       <section className="contact-sect">
-        <h2>Connect With Me</h2>
+        {/* <h2>Connect With Me</h2> */}
         <div className="d-flex">
-          <div className="col-4 offset-1 mt-5 mb-5 contact-bubble contact-left">
+          <div className="col-2 offset-4 contact-bubble contact-left">
             <img className="contact-logo" alt="site-logo" src={logo} />
-            <h2 className="contact-slogan">Dreaming Up Technology</h2>
+            {/* <h2 className="contact-slogan">Dreaming Up Technology</h2> */}
           </div>
-          <div className="col-4 offset-2 mt-5 mb-5 contact-bubble contact-right">
-            <h2 className="mt-3">Contact Me</h2>
-            <h4 className="mt-5">Mobile: (805) 844-6973</h4>
-            <h4 className="mt-5">Email: Asdaven15@gmail.com</h4>
-            <div className="mt-5">
+          <div className="col-4 contact-bubble contact-right">
+            {/* <h2 className="">Contact Me</h2> */}
+            <h4 className="mt-3">Mobile: (805) 844-6973</h4>
+            <h4 className="mt-4">Email: Asdaven15@gmail.com</h4>
+            <div className="mt-4">
               <a
                 href="https://www.linkedin.com/in/asdavenus15/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  className="me-5 media-link"
+                  className="me-5 media-link border-shadow-1"
                   alt="LinkedIn"
                   src={linkedIn}
                 />
               </a>
               <a href="mailto:Asdaven15@gmail.com?subject=Portfolio%20Inquiry">
-                <img className="me-5 media-link" alt="Gmail" src={gmail} />
+                <img
+                  className="me-5 media-link border-shadow-2"
+                  alt="Gmail"
+                  src={gmail}
+                />
               </a>
               <a
                 href="https://github.com/WingingItUS"
@@ -190,7 +195,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="media-link"
+                  className="media-link border-shadow-1"
                   alt="GitHub"
                   href="https://github.com/WingingItUS"
                   src={github}
@@ -198,6 +203,13 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </div>
+        <div>
+          <h6>
+            <Link to="/TermsOfService/">
+              <a>All Right Reserved</a>
+            </Link>
+          </h6>
         </div>
       </section>
     </>
