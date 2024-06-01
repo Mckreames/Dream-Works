@@ -99,7 +99,8 @@ section {
   box-shadow: 0px 0px 20px steelblue;
   /* border-left: 5px double steelblue;
   border-right: 5px double steelblue; */
-  background: rgb(1, 38, 68);
+  background: radial-gradient(rgb(1, 38, 68), steelblue);
+  /* background: radial-gradient(rgb(1, 38, 68), rgb(30, 96, 150)); */
 }
 
 .magic {
@@ -144,16 +145,16 @@ section {
   border-radius: 180px 180px 180px 180px;
   /* border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%; */
   background: radial-gradient(steelblue, rgba(61, 60, 60, 0.747) 70%);
-  /* background: steelblue; */
   box-shadow: 0 0 10px steelblue;
 }
 
 .profile-pic-2 {
   width: 450px;
-  border-radius: 180px 180px 180px 180px;
-  /* border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%; */
-  /* background: radial-gradient(steelblue, rgba(61, 60, 60, 0.747) 70%); */
-  background: radial-gradient(steelblue, #212529 70%);
+  /* border-radius: 180px 180px 180px 180px; */
+  overflow: visible;
+  border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%;
+  background: radial-gradient(steelblue, rgb(1, 38, 68));
+
   /* background: steelblue; */
   /* box-shadow: 0 0 10px steelblue; */
 }

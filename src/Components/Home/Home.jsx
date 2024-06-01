@@ -119,15 +119,10 @@ export default function Home() {
             <div className="card-text">
               <h3>Projects</h3>
               <p>
-                We've all been there... Is that guy Chinese? Japanese? Korean?
-                Taiwanese? We always find ourselves wondering how much better
-                life would be if all the rice munchers were the same ethnicity.
-                Well wonder no more! A robot made using AI to recognize DNA and
-                ethnicity of specific asian cultures for the sole purpose of
-                eliminating all of them except one.
-                <p>"More than one group of Slant-Eyes is too many"</p>
+                Clicking here will bring you to a list of all of the projects I
+                have worked on that I can legally post about here. Come see what
+                I have worked on and let it spark your interest!
               </p>
-              <p> ~ Ghandi</p>
             </div>
           </div>
           <div className="col-3 pt-3 card card2">
@@ -139,13 +134,11 @@ export default function Home() {
             <div className="card-text">
               <h3>Latest Activity</h3>
               <p>
-                I joined a team of some of the brightest minds this age has to
-                offer to create the "Weed-Dar". It's a gay-dar for weed! Tired
-                of paying masculine weed prices but getting feminine weed
-                instead? Well keep the misogyny alive and strong!
-                <p>"Only straight kush is good kush"</p>
+                From here, you will be able to follow with my blog! I'll post
+                anything I do that I find to be particularly interesting.
+                There's a separate here where you can see some videos of me
+                having fun in my free time.
               </p>
-              <p> ~ Martin Luther King</p>
             </div>
           </div>
           <div className="col-3 pt-3 card card3" onClick={toggleModal}>
@@ -157,16 +150,8 @@ export default function Home() {
             <div className="card-text">
               <h3>Resume</h3>
               <p>
-                Armed with motion detection, proximity sensors, 6 different
-                voice types, 8 different levels of racist remarks, two giant
-                lenses for "reconnaissance", and a giant smile for added{" "}
-                <i>creepy</i>
-                factor, I bring you the answer to all of your home security/ wet
-                dream needs. The Peeping Tom.
-                <p>
-                  "Pudding Pops... And yes, that means what you think it does
-                  😏"
-                </p>
+                Here, you will be able to view my resume and download a pdf
+                copy.
               </p>
               <p> ~ Bill Cosby</p>
             </div>
