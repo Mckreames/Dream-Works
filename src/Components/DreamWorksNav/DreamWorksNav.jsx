@@ -28,7 +28,7 @@ export default function DreamWorksNav() {
   return (
     <>
       <div className="shadow">
-        <Navbar color="dark" dark expand="md">
+        <Navbar color="dark" dark expand="md" className="nav-stuff">
           <NavbarBrand href="/">
             <img className="ms-3 me-3 logo" alt="app-logo" src={logo}></img>
           </NavbarBrand>

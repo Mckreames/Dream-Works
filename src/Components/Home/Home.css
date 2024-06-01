@@ -166,6 +166,7 @@ section {
 /* Project Sect */
 
 .project-sect {
+  /* background-color: #0d1323; */
   background-color: #181c20;
 }
 
@@ -202,6 +203,7 @@ section {
 .contact-sect {
   max-height: fit-content;
   min-height: 100px;
+  /* background-color: #03060c; */
   background-color: #101113;
 }
 

@@ -153,7 +153,6 @@ export default function Home() {
                 Here, you will be able to view my resume and download a pdf
                 copy.
               </p>
-              <p> ~ Bill Cosby</p>
             </div>
           </div>
         </div>
