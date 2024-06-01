@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.aa0e879e.css",
-    "main.js": "/Dream-Works/static/js/main.1136df1f.js",
+    "main.css": "/Dream-Works/static/css/main.bb40deba.css",
+    "main.js": "/Dream-Works/static/js/main.08aa8e6c.js",
     "static/media/Resume-Screenshot.png": "/Dream-Works/static/media/Resume-Screenshot.18a54def7b0fc9712611.png",
     "static/media/Resume-Screenshot2.png": "/Dream-Works/static/media/Resume-Screenshot2.820c5bfcc81f1a204abf.png",
     "static/media/Brick.mp4": "/Dream-Works/static/media/Brick.8cc6b4c5ce7d95001bbc.mp4",
@@ -11,15 +11,16 @@
     "static/media/frontal-color-removebg-preview.png": "/Dream-Works/static/media/frontal-color-removebg-preview.ef1cff638e65c811db92.png",
     "static/media/Harbor-Freight.png": "/Dream-Works/static/media/Harbor-Freight.3f4087bdd8ec1ad9b744.png",
     "static/media/GetImage.jpeg": "/Dream-Works/static/media/GetImage.da3d3f3976497c9f5d06.jpeg",
+    "static/media/blue-traces4.jpg": "/Dream-Works/static/media/blue-traces4.84fda8310743bbe285ef.jpg",
     "static/media/University-of-Tennessee.png": "/Dream-Works/static/media/University-of-Tennessee.22bdd85d0cb1135cb42e.png",
     "static/media/Teledyne.png": "/Dream-Works/static/media/Teledyne.bf0a2b51a1da32e9fcbb.png",
     "static/media/Denso.png": "/Dream-Works/static/media/Denso.9b149231387e32249108.png",
     "index.html": "/Dream-Works/index.html",
-    "main.aa0e879e.css.map": "/Dream-Works/static/css/main.aa0e879e.css.map",
-    "main.1136df1f.js.map": "/Dream-Works/static/js/main.1136df1f.js.map"
+    "main.bb40deba.css.map": "/Dream-Works/static/css/main.bb40deba.css.map",
+    "main.08aa8e6c.js.map": "/Dream-Works/static/js/main.08aa8e6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa0e879e.css",
-    "static/js/main.1136df1f.js"
+    "static/css/main.bb40deba.css",
+    "static/js/main.08aa8e6c.js"
   ]
 }
