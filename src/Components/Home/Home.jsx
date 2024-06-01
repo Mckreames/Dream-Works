@@ -3,15 +3,13 @@ import "./Home.css";
 import logo from "./Imgs/GetImage.jpeg";
 import brick from "./Vids/Brick.mp4";
 import profilePic from "./Imgs/frontal-color-removebg-preview.png";
-import Project1 from "./Imgs/MatLab.png";
-import Project2 from "./Imgs/thisisengineering-V-AEBD99Hak-unsplash.jpg";
-import Project3 from "./Imgs/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg";
+import Projects from "./Imgs/MatLab.png";
 import activityImg from "./Imgs/project-img.png";
-import resume from "./Imgs/Portfolio Screenshot.png";
+import resume from "../ResumeModal/Imgs/Resume-Screenshot.png";
 import linkedIn from "./Imgs/icons8-linkedin-48.png";
 import gmail from "./Imgs/icons8-gmail-48.png";
 import github from "./Imgs/icons8-github-48.png";
-import PortfolioModal from "../PortfolioModal/PortfolioModal";
+import ResumeModal from "../ResumeModal/ResumeModal";
 
 export default function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -98,7 +96,7 @@ export default function Home() {
             <img
               className="col-3 mb-3 p-3 project-img"
               alt="project-img"
-              src={Project1}
+              src={Projects}
             />
             <div className="card-text">
               <h3>Projects</h3>
@@ -157,7 +155,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <PortfolioModal isOpen={modalOpen} toggle={toggleModal} />
+      <ResumeModal isOpen={modalOpen} toggle={toggleModal} />
       <section className="contact-sect">
         <h2>Connect With Me</h2>
         <div className="d-flex">
