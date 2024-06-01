@@ -14,6 +14,7 @@ import TermsOfService from "./Components/TermsOfService/TermsOfService";
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL ?? "/"}>
+      <div id="blob"></div>
       <div className="App">
         <DreamWorksNav />
         <Routes>

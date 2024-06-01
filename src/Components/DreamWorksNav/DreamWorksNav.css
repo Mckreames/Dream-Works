@@ -17,6 +17,23 @@
   color: rgb(187, 187, 185);
 }
 
-.media-link {
+.media-link1 {
   cursor: pointer;
+}
+
+.media-link2 {
+  cursor: pointer;
+}
+
+.media-link3 {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.border-shadow-3 {
+  border-radius: 20%;
+}
+
+.border-shadow-4 {
+  border-radius: 10%;
 }

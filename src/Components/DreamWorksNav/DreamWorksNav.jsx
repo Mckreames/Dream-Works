@@ -78,13 +78,17 @@ export default function DreamWorksNav() {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="me-4 media-link"
+                  className="me-4 media-link border-shadow-3"
                   alt="LinkedIn"
                   src={linkedIn}
                 />
               </a>
               <a href="mailto:Asdaven15@gmail.com?subject=Portfolio%20Inquiry">
-                <img className="me-4 media-link" alt="Gmail" src={gmail} />
+                <img
+                  className="me-4 media-link border-shadow-4"
+                  alt="Gmail"
+                  src={gmail}
+                />
               </a>
               <a
                 href="https://github.com/WingingItUS"
@@ -92,7 +96,7 @@ export default function DreamWorksNav() {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="me-5 media-link"
+                  className="me-5 media-link border-shadow-1"
                   alt="GitHub"
                   href="https://github.com/WingingItUS"
                   src={github}

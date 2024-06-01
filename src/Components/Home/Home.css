@@ -1,3 +1,31 @@
+#blob {
+  background: linear-gradient(to right, #294046, steelblue);
+  filter: blur(100px);
+  height: 120px;
+  aspect-ratio: 1;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  animation: rotate 20s infinite;
+  z-index: 0;
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+
+  50% {
+    scale: 1 1.5;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
 .shadow {
   box-shadow: 0px 5px 10px black;
 }
@@ -58,10 +86,39 @@ section {
 
 /* Profile sect */
 
+.profile-sect {
+  background-image: url("./Imgs/blue-traces4.jpg");
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 .about-text {
   border-radius: 10px;
-  border-left: 5px double steelblue;
-  border-right: 5px double steelblue;
+  box-shadow: 0px 0px 20px steelblue;
+  /* border-left: 5px double steelblue;
+  border-right: 5px double steelblue; */
+  background: rgb(1, 38, 68);
+}
+
+.magic {
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(to right, #4682b4 50%, #3157c2);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
 }
 
 .contact-btn {

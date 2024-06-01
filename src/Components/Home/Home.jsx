@@ -5,25 +5,31 @@ import brick from "./Vids/Brick.mp4";
 import profilePic from "./Imgs/frontal-color-removebg-preview.png";
 import Projects from "./Imgs/MatLab.png";
 import activityImg from "./Imgs/project-img.png";
-<<<<<<< HEAD
 import resume from "../ResumeModal/Imgs/Resume-Screenshot.png";
-import linkedIn from "./Imgs/icons8-linkedin-48.png";
-import gmail from "./Imgs/icons8-gmail-48.png";
-import github from "./Imgs/icons8-github-48.png";
-import ResumeModal from "../ResumeModal/ResumeModal";
-=======
-import resume from "./Imgs/Portfolio Screenshot.png";
 import linkedIn from "./Imgs/Stencil-LinkedIn.png";
 import gmail from "./Imgs/Stencil-Gmail.png";
 import github from "./Imgs/Stencil-github.png";
-import PortfolioModal from "../PortfolioModal/PortfolioModal";
+import ResumeModal from "../ResumeModal/ResumeModal";
 import { Link } from "react-router-dom";
->>>>>>> 9db148bd64cf76d8deb38e6beacd18ad11e3d8c1
 
 export default function Home() {
   const [modalOpen, setModalOpen] = useState(false);
 
   const toggleModal = () => setModalOpen(!modalOpen);
+
+  const blob = document.getElementById("blob");
+
+  // document.body.onpointermove = (event) => {
+  //   const { clientX, clientY } = event;
+
+  //   blob.animate(
+  //     {
+  //       left: `${clientX}px`,
+  //       top: `${clientY}px`,
+  //     },
+  //     { duration: 3000, fill: "forwards" }
+  //   );
+  // };
 
   return (
     <>
@@ -64,10 +70,13 @@ export default function Home() {
           </div>
         </row>
       </section>
+      {/* Profile Sect */}
       <section className="d-flex align-items-center profile-sect">
-        <div className="offset-2 col-3 ps-5 pe-5 about-text">
+        <div className="offset-2 col-3 ps-5 pe-5 pt-3 pb-3 about-text">
           <h1 className="mb-3">Hi, I am Austin</h1>
-          <h4 className="mb-3">Mechanical Engineer</h4>
+          <h4 className="mb-3">
+            <span className="magic">Mechanical Engineer</span>
+          </h4>
           <p className="mb-3">
             An enthusiastic and passionate engineer with an eye for detail, a
             hunger to learn more, and a focus to produce quality work
