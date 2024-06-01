@@ -206,7 +206,7 @@ export default function Home() {
         </div>
         <div>
           <h6>
-            <Link to="/TermsOfService/">
+            <Link to="/Terms-Of-Service/">
               <a>All Right Reserved</a>
             </Link>
           </h6>
