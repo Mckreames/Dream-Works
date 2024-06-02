@@ -40,12 +40,12 @@ export default function Home() {
           Your browser does not support this video
         </video>
         <row className="row-quote-1">
-          <div className="col-2 splash-quote">
-            <h3>PRECISION</h3>
+          <div className="col-3 splash-quote">
+            <h3 className="splash-title">PRECISION</h3>
             <p>This 3d model is a 1:1 scale of a LEGO brick.</p>
           </div>
-          <div className="offset-7 col-2 splash-quote">
-            <h3>ASSOCIATION</h3>
+          <div className="offset-5 col-3 splash-quote">
+            <h3 className="splash-title">ASSOCIATION</h3>
             <p>
               Using the modeling software, the brick is given properties
               proportional to its real world counterpart
@@ -54,15 +54,15 @@ export default function Home() {
         </row>
         <div className="m-5 p-5 box-art"></div>
         <row className="row-quote-2">
-          <div className="col-2 splash-quote">
-            <h3>SIMULATION</h3>
+          <div className="col-3 splash-quote">
+            <h3 className="splash-title">SIMULATION</h3>
             <p>
               With this model, physical stress simulations will Reflect accurate
               approximations of internal forces.
             </p>
           </div>
-          <div className="offset-7 col-2 me-auto splash-quote">
-            <h3>APPLICATION</h3>
+          <div className="offset-5 col-3 me-auto splash-quote">
+            <h3 className="splash-title">APPLICATION</h3>
             <p>
               Preforming these steps show that any project with Great care can
               produce quality and interesting results.
@@ -206,7 +206,7 @@ export default function Home() {
         <div>
           <h6>
             <Link to="/Terms-Of-Service/">
-              <a>All Right Reserved</a>
+              <a className="all-rights">All Right Reserved</a>
             </Link>
           </h6>
         </div>

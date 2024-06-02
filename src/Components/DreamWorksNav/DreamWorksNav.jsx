@@ -19,6 +19,7 @@ import linkedIn from "./Imgs/icons8-linkedin-48.png";
 import gmail from "./Imgs/icons8-gmail-48.png";
 import github from "./Imgs/icons8-github-48.png";
 import resume from "../ResumeModal/Imgs/Resume-Screenshot.png";
+import { Link } from "react-router-dom";
 
 export default function DreamWorksNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,9 @@ export default function DreamWorksNav() {
       <div className="shadow">
         <Navbar color="dark" dark expand="md" className="nav-stuff">
           <NavbarBrand href="/">
-            <img className="ms-3 me-3 logo" alt="app-logo" src={logo}></img>
+            <Link to="/">
+              <img className="ms-3 me-3 logo" alt="app-logo" src={logo}></img>
+            </Link>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
