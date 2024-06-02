@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.7f01c90f.css",
+    "main.css": "/Dream-Works/static/css/main.6b40cb2d.css",
     "main.js": "/Dream-Works/static/js/main.4a4de11e.js",
     "static/media/Resume-Screenshot.png": "/Dream-Works/static/media/Resume-Screenshot.18a54def7b0fc9712611.png",
     "static/media/Resume-Screenshot2.png": "/Dream-Works/static/media/Resume-Screenshot2.820c5bfcc81f1a204abf.png",
@@ -16,11 +16,11 @@
     "static/media/Teledyne.png": "/Dream-Works/static/media/Teledyne.bf0a2b51a1da32e9fcbb.png",
     "static/media/Denso.png": "/Dream-Works/static/media/Denso.9b149231387e32249108.png",
     "index.html": "/Dream-Works/index.html",
-    "main.7f01c90f.css.map": "/Dream-Works/static/css/main.7f01c90f.css.map",
+    "main.6b40cb2d.css.map": "/Dream-Works/static/css/main.6b40cb2d.css.map",
     "main.4a4de11e.js.map": "/Dream-Works/static/js/main.4a4de11e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f01c90f.css",
+    "static/css/main.6b40cb2d.css",
     "static/js/main.4a4de11e.js"
   ]
 }
