@@ -2,11 +2,46 @@
   width: 250px;
 }
 
-.pill-container {
-  border-left: 3px solid steelblue;
-  border-right: 3px solid steelblue;
+.text-section {
+  flex: 1;
+  margin-left: 20px;
 }
 
 .collab-img {
-  width: 500px;
+  border-radius: 50px;
+  padding: 20px;
+  width: 300px;
+  height: 250px;
+  object-fit: contain;
+  /* background: rgb(99, 105, 163); */
+  /* background: radial-gradient(rgb(30, 96, 150), rgb(1, 38, 68)); */
+  background: radial-gradient(rgb(30, 96, 150), #212529 70%);
+}
+
+.collab-sect {
+  flex: 1;
+  display: flex;
+  overflow-x: hidden;
+  justify-content: flex-end;
+  align-items: center;
+  border-left: 3px solid steelblue;
+}
+
+.collab-container {
+  display: flex;
+  animation: scroll 5s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.pill-container {
+  border-left: 3px solid steelblue;
+  border-right: 3px solid steelblue;
 }

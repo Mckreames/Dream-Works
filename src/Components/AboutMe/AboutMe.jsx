@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./AboutMe.css";
 import AboutMeImg from "./Imgs/profile-color-removebg-preview.png";
 import NavPill from "../NavPill/NavPill";
@@ -6,6 +6,36 @@ import Teledyne from "./Imgs/Teledyne.png";
 import UT from "./Imgs/University-of-Tennessee.png";
 import Denso from "./Imgs/Denso.png";
 import HarborFreight from "./Imgs/Harbor-Freight.png";
+
+const companies = [
+  {
+    title: "Companies I Have Worked With",
+    images: [
+      { alt: "Teledyne Logo", src: Teledyne },
+      { alt: "University of Tennessee Logo", src: UT },
+      { alt: "Denso Logo", src: Denso },
+      { alt: "Harbor Freight Logo", src: HarborFreight },
+    ],
+  },
+  {
+    title: "Companies I Would Like To Work With",
+    images: [
+      { alt: "Company A Logo", src: Teledyne },
+      { alt: "Company B Logo", src: UT },
+      { alt: "Company C Logo", src: Denso },
+      { alt: "Company D Logo", src: HarborFreight },
+    ],
+  },
+  {
+    title: "Companies I Have Worked For",
+    images: [
+      { alt: "Company A Logo", src: Teledyne },
+      { alt: "Company B Logo", src: UT },
+      { alt: "Company C Logo", src: Denso },
+      { alt: "Company D Logo", src: HarborFreight },
+    ],
+  },
+];
 
 export default function AboutMe() {
   return (
@@ -50,29 +80,64 @@ export default function AboutMe() {
           </p>
         </div>
       </section>
-      <section>
-        <h2 className="mt-5 mb-5 pb-5">Companies I Have Worked With</h2>
-        <div>
-          <img className="collab-img" alt="Teledyne Logo" src={Teledyne} />
+      {/* <section>
+        <div className="d-flex align-items-center justify-content-between">
+          <div className="text-section">
+            <h2 className="mt-5 mb-5 pb-5">Companies I Have Worked With</h2>
+          </div>
+          <div className="col-4 collab-sect">
+            <div className="collab-container">
+              <img className="collab-img" alt="Teledyne Logo" src={Teledyne} />
+              <img
+                className="collab-img"
+                alt="University of Tennessee Logo"
+                src={UT}
+              />
+              <img className="collab-img" alt="Denso Logo" src={Denso} />
+              <img
+                className="collab-img"
+                alt="Harbor Freight Logo"
+                src={HarborFreight}
+              />
+            </div>
+          </div>
         </div>
         <div>
-          <img
-            className="collab-img"
-            alt="University of Tennessee Logo"
-            src={UT}
-          />
+          <div>
+            <h2 className="mt-5 mb-5 pb-5">
+              Companies I Would Like To Work With
+            </h2>
+          </div>
         </div>
         <div>
-          <img className="collab-img" alt="Denso Logo" src={Denso} />
+          <div>
+            <h2 className="mt-5 mb-5 pb-5">Companies I Have Worked For</h2>
+          </div>
         </div>
-        <div>
-          <img
-            className="collab-img"
-            alt="Harbor Freight Logo"
-            src={HarborFreight}
-          />
-        </div>
-      </section>
+      </section> */}
+      {companies.map((company, index) => (
+        <section key={index} className="company-section">
+          <div className="d-flex align-items-center justify-content-between">
+            <div className="text-section">
+              <h2 className="mt-5 mb-5 pb-5">{company.title}</h2>
+            </div>
+            <div className="col-8 collab-sect">
+              <div className="collab-container">
+                {company.images
+                  .concat(company.images)
+                  .map((image, imgIndex) => (
+                    <img
+                      key={imgIndex}
+                      className="collab-img"
+                      alt={image.alt}
+                      src={image.src}
+                    />
+                  ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      ))}
       <section>
         <div className="offset-2 col-8 pill-container">
           <NavPill />
