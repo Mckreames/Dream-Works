@@ -29,7 +29,8 @@
 
 .collab-container {
   display: flex;
-  animation: scroll 5s linear infinite;
+  width: calc(200% + 20px);
+  animation: scroll 10s linear infinite;
 }
 
 @keyframes scroll {

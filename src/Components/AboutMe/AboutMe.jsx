@@ -80,7 +80,7 @@ export default function AboutMe() {
           </p>
         </div>
       </section>
-      {/* <section>
+      <section>
         <div className="d-flex align-items-center justify-content-between">
           <div className="text-section">
             <h2 className="mt-5 mb-5 pb-5">Companies I Have Worked With</h2>
@@ -114,8 +114,8 @@ export default function AboutMe() {
             <h2 className="mt-5 mb-5 pb-5">Companies I Have Worked For</h2>
           </div>
         </div>
-      </section> */}
-      {companies.map((company, index) => (
+      </section>
+      {/* {companies.map((company, index) => (
         <section key={index} className="company-section">
           <div className="d-flex align-items-center justify-content-between">
             <div className="text-section">
@@ -137,7 +137,7 @@ export default function AboutMe() {
             </div>
           </div>
         </section>
-      ))}
+      ))} */}
       <section>
         <div className="offset-2 col-8 pill-container">
           <NavPill />
