@@ -82,7 +82,9 @@ export default function Home() {
             hunger to learn more, and a focus to produce quality work
           </p>
           <button className="p-3 me-2 contact-btn">Contact Me 💨</button>
-          <button className="p-3 about-btn">About Me 👷🏽‍♂️</button>
+          <Link to="/about-me/">
+            <button className="p-3 about-btn">About Me 👷🏽‍♂️</button>
+          </Link>
         </div>
         <div className="offset-2">
           <img
@@ -136,7 +138,7 @@ export default function Home() {
               <p>
                 From here, you will be able to follow with my blog! I'll post
                 anything I do that I find to be particularly interesting.
-                There's a separate here where you can see some videos of me
+                There's a separate area here where you can see some videos of me
                 having fun in my free time.
               </p>
             </div>
@@ -158,15 +160,12 @@ export default function Home() {
         </div>
       </section>
       <ResumeModal isOpen={modalOpen} toggle={toggleModal} />
-      <section className="contact-sect">
-        {/* <h2>Connect With Me</h2> */}
+      {/* <section className="contact-sect">
         <div className="d-flex">
           <div className="col-2 offset-4 contact-bubble contact-left">
             <img className="contact-logo" alt="site-logo" src={logo} />
-            {/* <h2 className="contact-slogan">Dreaming Up Technology</h2> */}
           </div>
           <div className="col-4 contact-bubble contact-right">
-            {/* <h2 className="">Contact Me</h2> */}
             <h4 className="mt-3">Mobile: (805) 844-6973</h4>
             <h4 className="mt-4">Email: Asdaven15@gmail.com</h4>
             <div className="mt-4">
@@ -210,7 +209,7 @@ export default function Home() {
             </Link>
           </h6>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

@@ -8,7 +8,7 @@ import AboutMe from "./Components/AboutMe/AboutMe";
 import Projects from "./Components/Projects/Projects";
 import Activities from "./Components/Activities/Activities";
 import TermsOfService from "./Components/TermsOfService/TermsOfService";
-// import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footer/Footer";
 // import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
           <Route path="/Terms-of-service" element={<TermsOfService />}></Route>
           {/* <Route path="*" element={<NotFound />}></Route> */}
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

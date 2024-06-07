@@ -163,13 +163,9 @@ section {
 
 .profile-pic-2 {
   width: 450px;
-  /* border-radius: 180px 180px 180px 180px; */
   overflow: visible;
   border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%;
   background: radial-gradient(steelblue, rgb(1, 38, 68));
-
-  /* background: steelblue; */
-  /* box-shadow: 0 0 10px steelblue; */
 }
 
 .profile-text {
@@ -209,62 +205,4 @@ section {
 
 .card-text {
   min-height: 250px;
-}
-
-/* Contact Sect */
-
-.contact-sect {
-  max-height: fit-content;
-  min-height: 100px;
-  /* background-color: #03060c; */
-  background-color: #101113;
-}
-
-.contact-bubble {
-  /* border: 5px solid grey; */
-  min-height: 100px;
-  border-radius: 50px;
-  /* background: rgb(78, 89, 99); */
-  /* box-shadow: 0px 0px 15px black; */
-}
-
-.contact-left {
-  /* background-color: #fdfdf3; */
-}
-
-.contact-logo {
-  border-radius: 50px;
-  width: 200px;
-}
-
-.contact-slogan {
-  color: black;
-  font-weight: bold;
-}
-
-.contact-right {
-  text-align: left;
-}
-
-.media-link {
-  transition: box-shadow 0.5s ease;
-}
-
-.media-link:hover {
-  box-shadow: 0px 0px 20px steelblue;
-}
-
-.border-shadow-1 {
-  border-radius: 50%;
-  z-index: 2;
-}
-
-.border-shadow-2 {
-  border-radius: 20%;
-  z-index: 2;
-}
-
-.all-rights {
-  color: #bec4cc;
-  text-decoration-color: transparent;
 }

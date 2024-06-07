@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -19,7 +19,6 @@ import linkedIn from "./Imgs/icons8-linkedin-48.png";
 import gmail from "./Imgs/icons8-gmail-48.png";
 import github from "./Imgs/icons8-github-48.png";
 import resume from "../ResumeModal/Imgs/Resume-Screenshot.png";
-import { Link } from "react-router-dom";
 
 export default function DreamWorksNav() {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,8 +1,11 @@
+html {
+  background-color: #212529;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #212529; */
   color: #fdfdf3;
   /* color: blue; */
 }
