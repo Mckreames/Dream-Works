@@ -41,8 +41,13 @@ export default function AboutMe() {
   return (
     <>
       <section className="prof-splash">
-        <div className="offset-3 col-6 pt-5 pe-5 ps-5 pb-1 about-container">
-          <img className="prof-img" alt="Profile Picture" src={AboutMeImg} />
+        <img
+          className="offset-2 prof-img2"
+          alt="Profile Picture"
+          src={AboutMeImg}
+        />
+        <div className="offset-5 col-5  pe-5 ps-5 pb-1 about-container">
+          {/* <img className="prof-img" alt="Profile Picture" src={AboutMeImg} /> */}
           <h1>About Me</h1>
           <p>
             Hello! My name is Austin Davenport and I am currently an

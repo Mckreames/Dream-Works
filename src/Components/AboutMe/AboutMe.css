@@ -1,10 +1,22 @@
+.prof-splash {
+  background: #101113;
+}
+
 .about-container {
-  border-radius: 20px;
-  /* background: radial-gradient(steelblue, #212529 70%); */
+  /* border-radius: 20px; */
+  /* background: #101113; */
 }
 
 .prof-img {
   width: 250px;
+}
+
+.prof-img2 {
+  width: 400px;
+  float: left;
+  background: radial-gradient(steelblue, #101113 70%);
+  box-shadow: 0 0 10px steelblue;
+  border-radius: 50px 50px 50px 50px;
 }
 
 .text-section {
