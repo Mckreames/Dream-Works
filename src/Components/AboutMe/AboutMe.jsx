@@ -41,10 +41,9 @@ export default function AboutMe() {
   return (
     <>
       <section className="prof-splash">
-        <div className="offset-3 col-6">
-          <h1>AboutMe</h1>
+        <div className="offset-3 col-6 pt-5 pe-5 ps-5 pb-1 about-container">
           <img className="prof-img" alt="Profile Picture" src={AboutMeImg} />
-          <h2>About Me</h2>
+          <h1>About Me</h1>
           <p>
             Hello! My name is Austin Davenport and I am currently an
             installation technician with University of Tennessee Knoxville. I am
@@ -80,6 +79,9 @@ export default function AboutMe() {
           </p>
         </div>
       </section>
+      <div className="dividend-container">
+        <div className="offset-2 col-8 dividend"></div>
+      </div>
       <section>
         <div className="d-flex align-items-center justify-content-between">
           <div className="text-section">
