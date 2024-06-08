@@ -19,17 +19,17 @@ export default function Home() {
 
   const blob = document.getElementById("blob");
 
-  // document.body.onpointermove = (event) => {
-  //   const { clientX, clientY } = event;
+  document.body.onpointermove = (event) => {
+    const { clientX, clientY } = event;
 
-  //   blob.animate(
-  //     {
-  //       left: `${clientX}px`,
-  //       top: `${clientY}px`,
-  //     },
-  //     { duration: 3000, fill: "forwards" }
-  //   );
-  // };
+    blob.animate(
+      {
+        left: `${clientX}px`,
+        top: `${clientY}px`,
+      },
+      { duration: 3000, fill: "forwards" }
+    );
+  };
 
   return (
     <>
