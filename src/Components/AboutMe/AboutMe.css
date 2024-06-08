@@ -35,6 +35,10 @@
   height: 1px;
 }
 
+.scroll-logos {
+  height: 250px !important;
+}
+
 .collab-img {
   border-radius: 50px;
   padding: 20px;
@@ -58,7 +62,7 @@
 .collab-container {
   display: flex;
   width: calc(200% + 20px);
-  animation: scroll 10s linear infinite;
+  animation: scroll 25s linear infinite;
 }
 
 @keyframes scroll {
