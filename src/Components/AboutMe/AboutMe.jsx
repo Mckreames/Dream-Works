@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./AboutMe.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import AboutMeImg from "./Imgs/profile-color-removebg-preview.png";
 import NavPill from "../NavPill/NavPill";
 import Teledyne from "./Imgs/Teledyne.png";
