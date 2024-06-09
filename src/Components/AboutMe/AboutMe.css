@@ -35,6 +35,11 @@
   height: 1px;
 }
 
+.collab-title {
+  border-top: 3px double steelblue;
+  border-bottom: 3px double steelblue;
+}
+
 .collab-img {
   border-radius: 50px;
   padding: 20px;

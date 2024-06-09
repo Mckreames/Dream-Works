@@ -130,7 +130,9 @@ export default function AboutMe() {
         <section key={index} className="company-section">
           <div className="d-flex align-items-center justify-content-between">
             <div className="text-section">
-              <h2 className="mt-5 mb-5 pb-5">{company.title}</h2>
+              <h2 className="offset-2 col-8 mt-5 mb-5 pb-5 pt-5 collab-title">
+                {company.title}
+              </h2>
             </div>
             <div className="col-8 collab-sect">
               <div className="collab-container">
