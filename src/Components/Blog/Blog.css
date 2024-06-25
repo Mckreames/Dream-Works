@@ -1,5 +1,6 @@
 .background {
-  background-image: url("Imgs/Blue_Corner_Blob.png");
+  /* background-image: url("Imgs/Blue_Corner_Blob.png"); */
+  background: #212529;
   background-size: contain;
   background-repeat: repeat-y;
 }
