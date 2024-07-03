@@ -41,6 +41,7 @@ section {
 .main-event {
   position: relative;
   background: transparent;
+  color: #fdfdf3;
 }
 
 .background-video {
@@ -98,6 +99,8 @@ section {
   background-image: url("./Imgs/blue-traces4.jpg");
   background-size: cover;
   /* background-position: center; */
+  color: #fdfdf3;
+
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -176,6 +179,7 @@ section {
 
 .project-sect {
   /* background-color: #0d1323; */
+  color: #fdfdf3;
   background-color: #181c20;
 }
 
@@ -205,4 +209,5 @@ section {
 
 .card-text {
   min-height: 250px;
+  color: #fdfdf3;
 }
