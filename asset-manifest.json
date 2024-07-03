@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.e7c6d498.css",
-    "main.js": "/Dream-Works/static/js/main.c3ac57ea.js",
+    "main.css": "/Dream-Works/static/css/main.00ed9522.css",
+    "main.js": "/Dream-Works/static/js/main.5f7133e9.js",
     "static/media/Resume-Screenshot.png": "/Dream-Works/static/media/Resume-Screenshot.18a54def7b0fc9712611.png",
     "static/media/Resume-Screenshot2.png": "/Dream-Works/static/media/Resume-Screenshot2.820c5bfcc81f1a204abf.png",
     "static/media/Brick.mp4": "/Dream-Works/static/media/Brick.8cc6b4c5ce7d95001bbc.mp4",
@@ -21,11 +21,11 @@
     "static/media/Python.png": "/Dream-Works/static/media/Python.53f15fae5e9bab19ed7d.png",
     "static/media/deez-nutz.webp": "/Dream-Works/static/media/deez-nutz.5a9d6c757db33fe135b0.webp",
     "index.html": "/Dream-Works/index.html",
-    "main.e7c6d498.css.map": "/Dream-Works/static/css/main.e7c6d498.css.map",
-    "main.c3ac57ea.js.map": "/Dream-Works/static/js/main.c3ac57ea.js.map"
+    "main.00ed9522.css.map": "/Dream-Works/static/css/main.00ed9522.css.map",
+    "main.5f7133e9.js.map": "/Dream-Works/static/js/main.5f7133e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7c6d498.css",
-    "static/js/main.c3ac57ea.js"
+    "static/css/main.00ed9522.css",
+    "static/js/main.5f7133e9.js"
   ]
 }
