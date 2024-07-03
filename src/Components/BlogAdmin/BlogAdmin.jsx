@@ -4,7 +4,7 @@ import "./BlogAdmin.css";
 export default function BlogAdmin() {
   return (
     <>
-      <section>
+      <section className="catching-bodies">
         <div class="form-container">
           <h2>Create Blog Post</h2>
           <form
