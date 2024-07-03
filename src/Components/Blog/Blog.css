@@ -5,81 +5,28 @@
   background-repeat: repeat-y;
 }
 
-.dark-frost {
-  border-radius: 40px;
-  background-color: var(--dark-grey);
-  opacity: 0.8;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.manage-sheet {
-  box-shadow: 0 0 10px black;
-  border-radius: 20px;
+.row {
+  margin: 4em 20px;
 }
 
-.form {
-  background-color: var(--light-grey);
-  border-radius: 20px 20px 0 0;
-}
-
-.input {
-  margin-right: 5rem;
-}
-
-button {
-  margin-right: 2rem;
-  border-radius: 10px;
-  font-weight: bolder;
-  padding: 0.5rem;
-  background-color: transparent;
-  color: var(--electric-blue);
-}
-
-button:hover {
-  background-color: var(--electric-blue);
-  color: white;
-}
-
-.delete-btn {
-  margin-right: 0;
-  padding: 0;
-  width: 100px;
-}
-
-.added-songs-list {
-  background: var(--dark-grey);
-  min-height: 750px;
-  border-radius: 0 0 20px 20px;
-}
-
-.song-item {
-  color: white;
-  text-align: left;
-  font-weight: bolder;
-  font-size: 18px;
-  border-bottom: 3px solid var(--light-grey);
-  border-top: 3px solid transparent;
-  border-left: 3px solid transparent;
-  border-right: 3px solid transparent;
-  border-radius: 10px;
-}
-
-.song-item:hover {
-  border: 3px solid var(--electric-blue);
-  background: var(--light-grey);
-  cursor: pointer;
-}
-
-.song-info {
-  display: inline-block;
-  overflow-x: hidden;
-}
-
-.song-item .song-info:first-child {
-  width: auto;
-}
-
-@media (max-width: 576px) {
-  .dark-frost {
-    font-size: 40px !important;
-  }
+.overlay::before {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 18%,
+    rgba(0, 0, 0, 0.8) 99%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
