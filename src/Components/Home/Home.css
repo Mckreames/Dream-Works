@@ -140,6 +140,7 @@ section {
   border-radius: 20px;
   background: rgb(78, 89, 99);
   border: 3px solid silver;
+  color: white;
 }
 
 .contact-btn:hover {
@@ -150,6 +151,7 @@ section {
   background: transparent;
   border-radius: 20px;
   border: 3px solid silver;
+  color: white;
 }
 
 .about-btn:hover {
