@@ -2,28 +2,28 @@ import React, { useState, useEffect } from "react";
 import "./Blog.css";
 
 export default function Blog() {
-  const [articles, setArticles] = useState([]);
+  const [entries, setEntries] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/articles")
+    fetch("https://dcnnpn-8080.csb.app/api/entries")
       .then((response) => response.json())
-      .then((data) => setArticles(data))
-      .catch((error) => console.error("Error fetching articles", error));
+      .then((data) => setEntries(data))
+      .catch((error) => console.error("Error fetching entries", error));
   }, []);
 
   return (
     <>
       <section className="blog-body">
         <div className="container">
-          <h1 className="mb-4">Blog Articles</h1>
-          <a href="/articles/new" className="btn btn-success">
-            New Article
+          <h1 className="mb-4">Blog entries</h1>
+          <a href="/entries/new" className="btn btn-success">
+            New Entry
           </a>
-          {articles.map((article, index) => (
+          {entries.map((entry, index) => (
             <div key={index} className="card mt-4">
-              <h2>{article.title}</h2>
-              <p>{new Date(article.createdAt).toLocaleString()}</p>
-              <p>{article.description}</p>
+              <h2>{entry.title}</h2>
+              <p>{new Date(entry.createdAt).toLocaleString()}</p>
+              <p>{entry.description}</p>
             </div>
           ))}
         </div>
