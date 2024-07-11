@@ -15,8 +15,13 @@ export default function Blog() {
     <>
       <section className="blog-body">
         <div className="container">
+<<<<<<< HEAD
           <h1 className="mb-4">Blog entries</h1>
           <a href="/entries/new" className="btn btn-success">
+=======
+          <h1 className="mb-4">Blog Entries</h1>
+          <a href="/Entries/new" className="btn btn-success">
+>>>>>>> 9deb659ae56083d67bbf3e1a4594adc10a8e6f0f
             New Entry
           </a>
           {entries.map((entry, index) => (
