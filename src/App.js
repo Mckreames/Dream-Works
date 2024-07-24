@@ -16,7 +16,7 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL ?? "/"}>
-      <div id="blob"></div>
+      {/* <div id="blob"></div> */}
       <div className="App">
         <DreamWorksNav />
         <Routes>
