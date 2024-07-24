@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dream-Works/static/css/main.ce527506.css",
-    "main.js": "/Dream-Works/static/js/main.b5fda8eb.js",
+    "main.js": "/Dream-Works/static/js/main.29f9fe0d.js",
     "static/media/Resume-Screenshot.png": "/Dream-Works/static/media/Resume-Screenshot.18a54def7b0fc9712611.png",
     "static/media/Resume-Screenshot2.png": "/Dream-Works/static/media/Resume-Screenshot2.820c5bfcc81f1a204abf.png",
     "static/media/Brick.mp4": "/Dream-Works/static/media/Brick.8cc6b4c5ce7d95001bbc.mp4",
@@ -22,10 +22,10 @@
     "static/media/deez-nutz.webp": "/Dream-Works/static/media/deez-nutz.5a9d6c757db33fe135b0.webp",
     "index.html": "/Dream-Works/index.html",
     "main.ce527506.css.map": "/Dream-Works/static/css/main.ce527506.css.map",
-    "main.b5fda8eb.js.map": "/Dream-Works/static/js/main.b5fda8eb.js.map"
+    "main.29f9fe0d.js.map": "/Dream-Works/static/js/main.29f9fe0d.js.map"
   },
   "entrypoints": [
     "static/css/main.ce527506.css",
-    "static/js/main.b5fda8eb.js"
+    "static/js/main.29f9fe0d.js"
   ]
 }
