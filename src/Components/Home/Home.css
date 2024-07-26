@@ -1,4 +1,4 @@
-#blob {
+/* #blob {
   background: linear-gradient(to right, #294046, steelblue);
   filter: blur(100px);
   height: 120px;
@@ -10,9 +10,9 @@
   border-radius: 50%;
   animation: rotate 20s infinite;
   z-index: 0;
-}
+} */
 
-@keyframes rotate {
+/* @keyframes rotate {
   from {
     rotate: 0deg;
   }
@@ -24,7 +24,7 @@
   to {
     rotate: 360deg;
   }
-}
+} */
 
 .shadow {
   box-shadow: 0px 5px 10px black;

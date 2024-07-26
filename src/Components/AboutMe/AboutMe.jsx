@@ -156,9 +156,7 @@ export default function AboutMe() {
         </section>
       ))}
       <section>
-        <div className="offset-2 col-8 pill-container">
-          <NavPill />
-        </div>
+        <div className="offset-2 col-8 pill-container">{/* <NavPill /> */}</div>
       </section>
     </>
   );
