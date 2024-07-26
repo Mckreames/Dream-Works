@@ -1,5 +1,6 @@
 .prof-splash {
   background: #101113;
+  color: #fdfdf3;
 }
 
 .about-container {
@@ -17,6 +18,10 @@
   background: radial-gradient(steelblue, #101113 70%);
   box-shadow: 0 0 10px steelblue;
   border-radius: 50px 50px 50px 50px;
+}
+
+.company-section {
+  color: #fdfdf3;
 }
 
 .text-section {
