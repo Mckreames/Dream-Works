@@ -1,0 +1,38 @@
+.activity-splash {
+  display: flex;
+}
+
+.main-splash {
+}
+
+.activity-imgs {
+  max-width: 800px;
+}
+
+.list-splash {
+  display: inline-block;
+  color: #fdfdf3;
+}
+
+.no-bullets {
+  list-style-type: none;
+  text-align: left;
+}
+
+.splash-list-item {
+  /* background-color: #181c20; */
+}
+
+.list-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.list-date {
+  color: steelblue;
+}
+
+.activity-divider {
+  margin-top: 30px;
+  border: solid 1px black;
+}
