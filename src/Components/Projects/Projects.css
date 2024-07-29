@@ -1,3 +1,17 @@
-.card-container {
+.dark-back {
   background-color: #101113;
+}
+
+.card-container {
+  background-color: #181b20;
+  color: #fdfdf3;
+}
+
+.card-30 {
+  width: 30%;
+}
+
+.project-img {
+  width: 300px;
+  height: 300px;
 }
