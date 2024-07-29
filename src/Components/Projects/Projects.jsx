@@ -20,18 +20,14 @@ export default function Projects() {
       {/* Card Container */}
       <div className="dark-back">
         <div className="pt-5 pb-5 card-container">
-          <Card
-            style={{
-              width: "fit-content",
-            }}
-          >
+          <Card className="card-30">
             <img alt="Actual Nutz" src={deezNutz} className="project-img" />
             <CardBody>
               <CardTitle tag="h5">Deez Nutz</CardTitle>
               <CardSubtitle className="mb-2 text-muted" tag="h6">
                 Those Nutz
               </CardSubtitle>
-              <CardText>
+              <CardText className="project-par">
                 Deez Nutz are, in fact, Those Nutz as well. It's not a commonly
                 known fact.
               </CardText>
@@ -45,7 +41,7 @@ export default function Projects() {
               <CardSubtitle className="mb-2 text-muted" tag="h6">
                 Room of Weed
               </CardSubtitle>
-              <CardText>
+              <CardText className="project-par">
                 This is not actual weed but I thought it was funny which is why
                 I'm making the same joke for the second time on a different
                 page.
@@ -61,7 +57,7 @@ export default function Projects() {
               <CardSubtitle className="mb-2 text-muted" tag="h6">
                 Drone that is a bomb itself
               </CardSubtitle>
-              <CardText>
+              <CardText className="project-par">
                 This sly, aluminum, bad boy is a drone, even though it doesn't
                 look like one. The sole purpose is to find all flat-earthers and
                 send them to the heavens... If you know what I mean 😉. Good
@@ -78,7 +74,7 @@ export default function Projects() {
               <CardSubtitle className="mb-2 text-muted" tag="h6">
                 Tom while he's peeping.
               </CardSubtitle>
-              <CardText>
+              <CardText className="project-par">
                 Peeping Toms get a bad rap because a couple of them do bad
                 things and it makes all of them look bad. Well, peeping toms can
                 do good for the world, and the best one?... Introducing Peeping
