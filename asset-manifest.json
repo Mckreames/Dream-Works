@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.e70cc64b.css",
+    "main.css": "/Dream-Works/static/css/main.575eba6c.css",
     "main.js": "/Dream-Works/static/js/main.fe98c4b3.js",
     "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
     "static/media/thisisengineering-lfIDAUla2Hw-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-lfIDAUla2Hw-unsplash.d59fab3eff97dce89b91.jpg",
@@ -27,11 +27,11 @@
     "static/media/Python.png": "/Dream-Works/static/media/Python.53f15fae5e9bab19ed7d.png",
     "static/media/deez-nutz.webp": "/Dream-Works/static/media/deez-nutz.5a9d6c757db33fe135b0.webp",
     "index.html": "/Dream-Works/index.html",
-    "main.e70cc64b.css.map": "/Dream-Works/static/css/main.e70cc64b.css.map",
+    "main.575eba6c.css.map": "/Dream-Works/static/css/main.575eba6c.css.map",
     "main.fe98c4b3.js.map": "/Dream-Works/static/js/main.fe98c4b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e70cc64b.css",
+    "static/css/main.575eba6c.css",
     "static/js/main.fe98c4b3.js"
   ]
 }
