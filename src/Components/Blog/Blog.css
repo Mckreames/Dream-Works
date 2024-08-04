@@ -1,12 +1,12 @@
 .background {
   /* background-image: url("Imgs/Blue_Corner_Blob.png"); */
-  background: #212529;
+  background: var(--background-grey);
   background-size: contain;
   background-repeat: repeat-y;
 }
 
 .blog-body {
-  color: #e9ede7;
+  color: var(--white);
 }
 
 .blog-container {

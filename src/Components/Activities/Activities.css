@@ -1,5 +1,5 @@
 .activity-h1 {
-  color: #fdfdf3;
+  color: var(--white);
 }
 
 .activity-splash {
@@ -15,7 +15,7 @@
 
 .list-splash {
   display: inline-block;
-  color: #fdfdf3;
+  color: var(--white);
 }
 
 .no-bullets {
@@ -31,7 +31,8 @@
 
 .splash-list-item:hover {
   /* background-color: #181c20; */
-  box-shadow: 0px 0px 10px steelblue;
+  box-shadow: 0px 0px 10px var(--blue);
+  color: var(--blue);
 }
 
 .list-title {
@@ -40,7 +41,7 @@
 }
 
 .list-date {
-  color: steelblue;
+  color: var(--blue);
 }
 
 .activity-divider {

@@ -33,7 +33,7 @@
 section {
   min-height: fit-content;
   padding: 30px 0 30px 0;
-  background-color: #212529;
+  background-color: var(--background-grey);
   /* box-shadow: 0px 5px 10px black; */
   /* border: 5px solid black; */
 }
@@ -41,7 +41,7 @@ section {
 .main-event {
   position: relative;
   background: transparent;
-  color: #fdfdf3;
+  color: var(--white);
 }
 
 .background-video {
@@ -64,7 +64,8 @@ section {
 }
 
 .main-title {
-  background: #212529;
+  background: var(--background-grey);
+  /* background: #212529; */
 }
 
 .row-quote-1 {
@@ -106,16 +107,15 @@ section {
   background-image: url("./Imgs/blue-traces4.jpg");
   background-size: cover;
   /* background-position: center; */
-  color: #fdfdf3;
-
+  color: var(--white);
   background-repeat: no-repeat;
   width: 100%;
 }
 
 .about-text {
   border-radius: 10px;
-  border: 3px solid steelblue;
-  box-shadow: 0px 0px 20px steelblue;
+  border: 3px solid var(--blue);
+  box-shadow: 0px 0px 20px var(--blue);
   /* border-left: 5px double steelblue;
   border-right: 5px double steelblue; */
   /* background: radial-gradient(rgb(1, 38, 68), steelblue); */
@@ -169,15 +169,15 @@ section {
   width: 250px;
   border-radius: 180px 180px 180px 180px;
   /* border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%; */
-  background: radial-gradient(steelblue, rgba(61, 60, 60, 0.747) 70%);
-  box-shadow: 0 0 10px steelblue;
+  background: radial-gradient(var(--blue), rgba(61, 60, 60, 0.747) 70%);
+  box-shadow: 0 0 10px var(--blue);
 }
 
 .profile-pic-2 {
   width: 450px;
   overflow: visible;
   border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%;
-  background: radial-gradient(steelblue, rgb(1, 38, 68));
+  background: radial-gradient(var(--blue), rgb(1, 38, 68));
 }
 
 .profile-text {
@@ -188,8 +188,9 @@ section {
 
 .project-sect {
   /* background-color: #0d1323; */
-  color: #fdfdf3;
-  background-color: #181c20;
+  color: var(--white);
+  background-color: var(--background-grey);
+  /* background-color: #181c20; */
 }
 
 .card {
@@ -206,7 +207,7 @@ section {
 .card1:hover,
 .card2:hover,
 .card3:hover {
-  box-shadow: 0px 0px 20px steelblue;
+  box-shadow: 0px 0px 20px var(--blue);
 }
 
 .project-img {
@@ -218,5 +219,5 @@ section {
 
 .card-text {
   min-height: 250px;
-  color: #fdfdf3;
+  color: var(--white);
 }
