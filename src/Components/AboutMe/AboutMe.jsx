@@ -14,6 +14,10 @@ import AutoCAD from "./Imgs/AutoCAD.png";
 import Matlab from "./Imgs/Matlab.png";
 import Python from "./Imgs/Python.png";
 import SolidWorks from "./Imgs/SolidWorks.png";
+import BucketList from "./Vids/Bucket list item_ Sunrise on top of the world.mp4";
+import SantaCruz from "./Vids/Santa Cruz.mp4";
+import Strand from "./Vids/Strand.mp4";
+import FourthOfJuly from "./Vids/4th of July Fun..mp4";
 
 const companies = [
   {
@@ -155,6 +159,48 @@ export default function AboutMe() {
           </div>
         </section>
       ))}
+      <div className="dividend-container">
+        <div className="offset-2 col-8 dividend"></div>
+      </div>
+      <section>
+        <div className="offset-1 col-10 about-me-vid-sect">
+          <div>
+            <video className="about-vid" controls>
+              <source src={BucketList} type="video/mp4" />
+              Your browser does not support this video.
+            </video>
+            <h2 className="vid-title">Bucket List Video</h2>
+            <p className="vid-text">Bucket and buckets of buckets.</p>
+          </div>
+          <div>
+            <video className="about-vid" controls>
+              <source src={SantaCruz} type="video/mp4" />
+              Your browser does not support this video.
+            </video>
+            <h2 className="vid-title">Santa Cruz Video</h2>
+            <p className="vid-text">
+              The government caught Santa and un-bearded him. Turns out, it's
+              just a dude named Cruz.
+            </p>
+          </div>
+          <div>
+            <video className="about-vid" controls>
+              <source src={Strand} type="video/mp4" />
+              Your browser does not support this video.
+            </video>
+            <h2 className="vid-title">Strand Video</h2>
+            <p className="vid-text">String theory. 'Nuff said.</p>
+          </div>
+          <div>
+            <video className="about-vid" controls>
+              <source src={FourthOfJuly} type="video/mp4" />
+              Your browser does not support this video.
+            </video>
+            <h2 className="vid-title">4th of July Video</h2>
+            <p className="vid-text">Explosions.</p>
+          </div>
+        </div>
+      </section>
       <section>
         <div className="offset-2 col-8 pill-container">{/* <NavPill /> */}</div>
       </section>

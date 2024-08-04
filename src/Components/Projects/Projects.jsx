@@ -16,10 +16,10 @@ import peepingTom from "./Imgs/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg";
 export default function Projects() {
   return (
     <>
-      {/* <h1>Projects</h1> */}
       {/* Card Container */}
       <div className="dark-back">
-        <div className="pt-5 pb-5 card-container">
+        <h1 className="pt-4 project-h1">Projects</h1>
+        <div className="pt-3 pb-5 card-container">
           <Card className="card-30">
             <img alt="Actual Nutz" src={deezNutz} className="project-img" />
             <CardBody>

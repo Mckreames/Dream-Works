@@ -68,7 +68,7 @@
 .collab-container {
   display: flex;
   width: calc(200% + 20px);
-  animation: scroll 120s linear infinite;
+  animation: scroll 40s linear infinite;
 }
 
 @keyframes scroll {
@@ -78,6 +78,28 @@
   100% {
     transform: translateX(-75%);
   }
+}
+
+.about-me-vid-sect {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 50px;
+  justify-content: center;
+  /* border: 2px solid var(--blue); */
+}
+
+.about-vid {
+  width: 60%;
+  border-radius: 20px;
+}
+
+.vid-title {
+  color: var(--white);
+}
+
+.vid-text {
+  color: var(--blue);
 }
 
 .pill-container {
