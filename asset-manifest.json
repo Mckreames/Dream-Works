@@ -1,11 +1,7 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.aef62908.css",
-    "main.js": "/Dream-Works/static/js/main.5b45dccf.js",
-    "static/media/Bucket list item_ Sunrise on top of the world.mp4": "/Dream-Works/static/media/Bucket list item_ Sunrise on top of the world.f2b3d1bd4c695a19807c.mp4",
-    "static/media/Santa Cruz.mp4": "/Dream-Works/static/media/Santa Cruz.966f345056b569e601be.mp4",
-    "static/media/Strand.mp4": "/Dream-Works/static/media/Strand.126e11cb52582c250009.mp4",
-    "static/media/4th of July Fun..mp4": "/Dream-Works/static/media/4th of July Fun..03675cf979144c83eb6b.mp4",
+    "main.css": "/Dream-Works/static/css/main.f8c2e18e.css",
+    "main.js": "/Dream-Works/static/js/main.88a0c245.js",
     "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
     "static/media/thisisengineering-lfIDAUla2Hw-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-lfIDAUla2Hw-unsplash.d59fab3eff97dce89b91.jpg",
     "static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg": "/Dream-Works/static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.9f4b65375ecd4d3db743.jpg",
@@ -31,11 +27,11 @@
     "static/media/Python.png": "/Dream-Works/static/media/Python.53f15fae5e9bab19ed7d.png",
     "static/media/deez-nutz.webp": "/Dream-Works/static/media/deez-nutz.5a9d6c757db33fe135b0.webp",
     "index.html": "/Dream-Works/index.html",
-    "main.aef62908.css.map": "/Dream-Works/static/css/main.aef62908.css.map",
-    "main.5b45dccf.js.map": "/Dream-Works/static/js/main.5b45dccf.js.map"
+    "main.f8c2e18e.css.map": "/Dream-Works/static/css/main.f8c2e18e.css.map",
+    "main.88a0c245.js.map": "/Dream-Works/static/js/main.88a0c245.js.map"
   },
   "entrypoints": [
-    "static/css/main.aef62908.css",
-    "static/js/main.5b45dccf.js"
+    "static/css/main.f8c2e18e.css",
+    "static/js/main.88a0c245.js"
   ]
 }
