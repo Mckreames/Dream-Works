@@ -63,6 +63,11 @@ export default function DreamWorksNav() {
                 </NavLink>
               </NavItem>
               <NavItem>
+                <NavLink to="/about-me/" className="me-4 nav-btn">
+                  About Me
+                </NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink
                   className="me-4 nav-btn"
                   src={resume}
