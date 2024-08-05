@@ -14,10 +14,7 @@ import AutoCAD from "./Imgs/AutoCAD.png";
 import Matlab from "./Imgs/Matlab.png";
 import Python from "./Imgs/Python.png";
 import SolidWorks from "./Imgs/SolidWorks.png";
-import BucketList from "./Vids/Bucket list item_ Sunrise on top of the world.mp4";
-import SantaCruz from "./Vids/Santa Cruz.mp4";
-import Strand from "./Vids/Strand.mp4";
-import FourthOfJuly from "./Vids/4th of July Fun..mp4";
+// import YearReview from "./Vids/2014 Year Review.mp4";
 
 const companies = [
   {
@@ -163,41 +160,90 @@ export default function AboutMe() {
         <div className="offset-2 col-8 dividend"></div>
       </div>
       <section>
-        <div className="offset-1 col-10 about-me-vid-sect">
-          <div>
-            <video className="about-vid" controls>
-              <source src={BucketList} type="video/mp4" />
-              Your browser does not support this video.
-            </video>
-            <h2 className="vid-title">Bucket List Video</h2>
+        <div className="offset-1 col-10 pt-5 pb-5 about-me-vid-sect">
+          {/* <h3>My Youtube channel!</h3> */}
+          <h3 className="col-7 pt-3 pb-3 about-h3">
+            Come see what I'm up to{" "}
+            <a
+              href="https://www.youtube.com/@Wingingit.us15"
+              target="_blank"
+              className="youtube-link"
+            >
+              WingingIt
+            </a>
+          </h3>
+          <div className="vid-container">
+            <iframe
+              className="about-vid"
+              src="https://www.youtube.com/embed/LMPdNyQvXiI"
+              title="Bucket list item: Sunrise on top of the world"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h2 className="vid-title">
+              Bucket List item_ Sunrise on top of the world
+            </h2>
             <p className="vid-text">Bucket and buckets of buckets.</p>
           </div>
-          <div>
-            <video className="about-vid" controls>
-              <source src={SantaCruz} type="video/mp4" />
-              Your browser does not support this video.
-            </video>
-            <h2 className="vid-title">Santa Cruz Video</h2>
+          <div className="vid-container">
+            <iframe
+              className="about-vid"
+              src="https://www.youtube.com/embed/APbCPUImgqs"
+              title="Santa Cruz"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h2 className="vid-title">Santa Cruz</h2>
             <p className="vid-text">
               The government caught Santa and un-bearded him. Turns out, it's
               just a dude named Cruz.
             </p>
           </div>
-          <div>
-            <video className="about-vid" controls>
-              <source src={Strand} type="video/mp4" />
-              Your browser does not support this video.
-            </video>
-            <h2 className="vid-title">Strand Video</h2>
+          <div className="vid-container">
+            <iframe
+              className="about-vid"
+              src="https://www.youtube.com/embed/OuSvtnWMnjg"
+              title="Strand"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h2 className="vid-title">Strand</h2>
             <p className="vid-text">String theory. 'Nuff said.</p>
           </div>
-          <div>
-            <video className="about-vid" controls>
-              <source src={FourthOfJuly} type="video/mp4" />
-              Your browser does not support this video.
-            </video>
-            <h2 className="vid-title">4th of July Video</h2>
+          <div className="vid-container">
+            <iframe
+              className="about-vid"
+              src="https://www.youtube.com/embed/oETLm0db9QU"
+              title="4th of July Fun."
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h2 className="vid-title">4th of July Fun</h2>
             <p className="vid-text">Explosions.</p>
+          </div>
+          <div className="vid-container">
+            <iframe
+              className="about-vid"
+              src="https://www.youtube.com/embed/6utjmpT1ryM"
+              title="2014 Year Review"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h2 className="vid-title">2014 Year Review</h2>
+            <p className="vid-text">
+              A review of the year 2014. If I had two words to describe this
+              year, it would probably be "Twenty" and "Fourteen"
+            </p>
           </div>
         </div>
       </section>
