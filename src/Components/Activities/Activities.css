@@ -49,18 +49,46 @@
   border: solid 1px black;
 }
 
+.activity-sect {
+  flex-direction: column;
+}
+
+.activity-entry {
+  box-shadow: 0 0 20px var(--blue);
+  border-radius: 20px;
+}
+
 .activity-entries {
   border-radius: 20px;
-  box-shadow: 0 0 20px var(--blue);
-  min-height: 400px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .activity-img {
-  width: 30%;
+  width: 35%;
+  height: 280px;
+  object-fit: contain;
 }
 
 .vertical-divider {
-  width: 2px;
+  width: 5px;
   height: 100%;
   box-shadow: 0 0 20px var(--blue);
+}
+
+.activity-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.activity-head-text {
+  color: var(--white);
+  font-size: 40px;
+}
+
+.activity-p-text {
+  color: var(--white);
+  font-size: 18px;
 }
