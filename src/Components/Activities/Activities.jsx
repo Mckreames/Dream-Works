@@ -9,7 +9,7 @@ export default function Activities() {
     <>
       <div className="dark-back">
         <h1 className="pt-5 mb-3 activity-h1">Latest Activities</h1>
-        <section className="offset-1 col-10 dark-back activity-splash">
+        <section className="col-11 dark-back activity-splash">
           <div className="offset-1 col-7 main-splash">
             <img
               alt="Blown out image of an engine"
@@ -39,6 +39,19 @@ export default function Activities() {
                 <div className="list-date">6/9/24</div>
               </li>
             </ul>
+          </div>
+        </section>
+        <div className="dividend-container">
+          <div className="offset-2 col-8 mt-3 dividend"></div>
+        </div>
+        <section className="d-flex activity-sect">
+          <div className="offset-1 col-10 p-5 activity-entries">
+            <img
+              src={Engine}
+              alt="blown out picture of the whisper Aero jet engine"
+              className="col-2 activity-img"
+            />
+            <div className="vertical-divider"></div>
           </div>
         </section>
       </div>
