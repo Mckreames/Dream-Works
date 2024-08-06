@@ -163,13 +163,14 @@ export default function AboutMe() {
         <div className="offset-1 col-10 pt-5 pb-5 about-me-vid-sect">
           {/* <h3>My Youtube channel!</h3> */}
           <h3 className="col-7 pt-3 pb-3 about-h3">
-            Come see what I'm up to{" "}
+            Come see what I'm up to on my{" "}
+            <span className="p-1 red">YouTube</span> :{" "}
             <a
               href="https://www.youtube.com/@Wingingit.us15"
               target="_blank"
               className="youtube-link"
             >
-              WingingIt
+              @WingingIt
             </a>
           </h3>
           <div className="vid-container">

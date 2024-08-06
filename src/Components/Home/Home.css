@@ -202,6 +202,7 @@ section {
   padding: 10px;
   cursor: pointer;
   transition: box-shadow 0.5s ease;
+  text-decoration: none;
 }
 
 .card1:hover,
@@ -220,4 +221,9 @@ section {
 .card-text {
   min-height: 250px;
   color: var(--white);
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }

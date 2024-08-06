@@ -68,7 +68,7 @@
 .collab-container {
   display: flex;
   width: calc(200% + 20px);
-  animation: scroll 40s linear infinite;
+  animation: scroll 30s linear infinite;
 }
 
 @keyframes scroll {
@@ -89,20 +89,30 @@
   column-gap: 20px;
   row-gap: 50px;
   justify-content: center;
-  border: 2px solid var(--blue);
+  /* border: 2px solid var(--blue); */
 }
 
 .about-h3 {
   color: var(--white);
-  font-size: 40px;
+  font-size: 35px;
   /* border-radius: 12px; */
   /* background-color: rgb(28, 29, 29); */
-  border-left: 3px double var(--blue);
-  border-right: 3px double var(--blue);
+  border-left: 8px double var(--blue);
+  border-right: 8px double var(--blue);
+}
+
+.red {
+  border-radius: 15px;
+  background-color: #fd0000;
+  color: white;
 }
 
 .youtube-link {
   color: var(--blue);
+}
+
+.youtube-link:hover {
+  text-decoration: underline;
 }
 
 .vid-container {

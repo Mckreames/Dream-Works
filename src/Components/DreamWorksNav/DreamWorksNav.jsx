@@ -19,11 +19,16 @@ import linkedIn from "./Imgs/icons8-linkedin-48.png";
 import gmail from "./Imgs/icons8-gmail-48.png";
 import github from "./Imgs/icons8-github-48.png";
 import resume from "../ResumeModal/Imgs/Resume-Screenshot.png";
+import ResumeModal from "../ResumeModal/ResumeModal";
 
 export default function DreamWorksNav() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
+
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const toggleModal = () => setModalOpen(!modalOpen);
 
   return (
     <>
@@ -72,6 +77,7 @@ export default function DreamWorksNav() {
                   className="me-4 nav-btn"
                   src={resume}
                   download="Austin-Davenport-Resume.png"
+                  onClick={toggleModal}
                 >
                   Resume
                 </NavLink>
@@ -123,6 +129,7 @@ export default function DreamWorksNav() {
           </Collapse>
         </Navbar>
       </div>
+      <ResumeModal isOpen={modalOpen} toggle={toggleModal} />
     </>
   );
 }
