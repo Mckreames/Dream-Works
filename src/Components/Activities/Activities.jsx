@@ -52,6 +52,17 @@ export default function Activities() {
               className="col-2 activity-img"
             />
             <div className="vertical-divider"></div>
+            <h2>Whisper Aero</h2>
+            <p>
+              "During my time at Tennessee tech university I had the opportunity
+              to meet and talk with one of my professors who is close friends
+              with a professional at whisper arrow. What they're accomplishing
+              here baffles me and the peaks my interest to no end. Here they are
+              creating a ducted fan engine that is imperceivable past 500 feet.
+              I hope to learn more and possibly work with them in the near
+              future read more about what they want to accomplish here:{" "}
+              <a href="https://www.whisper.aero/" target="_blank"></a>
+            </p>
           </div>
         </section>
       </div>
