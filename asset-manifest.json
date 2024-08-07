@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/Dream-Works/static/css/main.d5977524.css",
-    "main.js": "/Dream-Works/static/js/main.477c02c8.js",
+    "main.js": "/Dream-Works/static/js/main.fbf133db.js",
     "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
     "static/media/thisisengineering-lfIDAUla2Hw-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-lfIDAUla2Hw-unsplash.d59fab3eff97dce89b91.jpg",
     "static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg": "/Dream-Works/static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.9f4b65375ecd4d3db743.jpg",
-    "static/media/NOAA CO2.png": "/Dream-Works/static/media/NOAA CO2.3c1e4a11759208d35d6b.png",
     "static/media/Resume-Screenshot.png": "/Dream-Works/static/media/Resume-Screenshot.18a54def7b0fc9712611.png",
     "static/media/Resume-Screenshot2.png": "/Dream-Works/static/media/Resume-Screenshot2.820c5bfcc81f1a204abf.png",
     "static/media/Jet.png": "/Dream-Works/static/media/Jet.71c2c289fefcf5e24bd6.png",
@@ -15,6 +14,7 @@
     "static/media/Engine.png": "/Dream-Works/static/media/Engine.6ee9468c5c7834d3519c.png",
     "static/media/project-img.png": "/Dream-Works/static/media/project-img.6ee9468c5c7834d3519c.png",
     "static/media/frontal-color-removebg-preview.png": "/Dream-Works/static/media/frontal-color-removebg-preview.ef1cff638e65c811db92.png",
+    "static/media/starship.jpeg": "/Dream-Works/static/media/starship.a83d6360f1739527aff4.jpeg",
     "static/media/AustinSDavenportResume.pdf": "/Dream-Works/static/media/AustinSDavenportResume.9576137ccfc934c00320.pdf",
     "static/media/Harbor-Freight.png": "/Dream-Works/static/media/Harbor-Freight.3f4087bdd8ec1ad9b744.png",
     "static/media/SolidWorks.png": "/Dream-Works/static/media/SolidWorks.1d06131b1c33df7fde7a.png",
@@ -30,10 +30,10 @@
     "static/media/deez-nutz.webp": "/Dream-Works/static/media/deez-nutz.5a9d6c757db33fe135b0.webp",
     "index.html": "/Dream-Works/index.html",
     "main.d5977524.css.map": "/Dream-Works/static/css/main.d5977524.css.map",
-    "main.477c02c8.js.map": "/Dream-Works/static/js/main.477c02c8.js.map"
+    "main.fbf133db.js.map": "/Dream-Works/static/js/main.fbf133db.js.map"
   },
   "entrypoints": [
     "static/css/main.d5977524.css",
-    "static/js/main.477c02c8.js"
+    "static/js/main.fbf133db.js"
   ]
 }
