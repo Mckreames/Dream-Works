@@ -57,7 +57,7 @@ export default function DreamWorksNav() {
                   Activity
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink to="/Blog/" className="me-4 nav-btn">
                   Blog
                 </NavLink>
@@ -66,7 +66,7 @@ export default function DreamWorksNav() {
                 <NavLink to="/Blog-Admin/" className="me-4 nav-btn">
                   Blog Admin
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink to="/about-me/" className="me-4 nav-btn">
                   About Me

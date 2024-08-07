@@ -2,7 +2,7 @@ import React from "react";
 import "./Activities.css";
 import Engine from "./Imgs/Engine.png";
 import Jet from "./Imgs/Jet.png";
-import CO2 from "./Imgs/NOAA CO2.png";
+import Starship from "./Imgs/starship.jpeg";
 import Shuttle from "./Imgs/SpaceShuttle.jpg";
 
 export default function Activities() {
@@ -118,10 +118,10 @@ export default function Activities() {
                   posiibilities the dark void offers. See what NASA is working
                   on next here:{" "}
                   <a
-                    href="https://www.hermeus.com/press-release-mk1-unveil"
+                    href="https://www.nasa.gov/ames/core-area-of-expertise-entry-systems/"
                     target="_blank"
                   >
-                    Hermeus Unveils First Aircraft, Quarterhorse Mk 1 | Hermeus
+                    Core Area of Expertise-Entry Systems
                   </a>
                 </p>
               </div>
@@ -129,28 +129,24 @@ export default function Activities() {
             <div className="col mb-1 mt-1 activity-divider"></div>
             <div className="p-5 activity-entries">
               <img
-                src={Jet}
+                src={Starship}
                 alt="blown out picture of the whisper Aero jet engine"
                 className="col-2 activity-img"
               />
               <div className="ms-3 me-3 vertical-divider"></div>
               <div className="activity-content">
-                <h2 className="activity-head-text">
-                  Hermeus and Quarter Horse
-                </h2>
+                <h2 className="activity-head-text">SpaceX Starship</h2>
                 <p className="activity-p-text">
-                  I recently fell in love with this company named Hermes in
-                  Atlanta GA. What they're accomplishing is a reusable unmanned
-                  and manned hypersonic engine. They are the forefront of
-                  aerospace technology and I have started following almost every
-                  bit of media I can get my hands on. They most recently posted
-                  an article about their first prototype that should take flight
-                  later in 2024. Feel free to read more about it here:{" "}
+                  That, Elon Musk, fella is something else, isn't he? Well, I
+                  think so as well! I find his ideas and his solutions to be
+                  very interesting. If I could work on any of his various
+                  products, I would happily work on the Starship. Take a look at
+                  the starship here:{" "}
                   <a
-                    href="https://www.hermeus.com/press-release-mk1-unveil"
+                    href="https://www.spacex.com/vehicles/starship/"
                     target="_blank"
                   >
-                    Hermeus Unveils First Aircraft, Quarterhorse Mk 1 | Hermeus
+                    STARSHIP. SERVICE TO EARTH ORBIT, MOON, MARS AND BEYOND
                   </a>
                 </p>
               </div>
