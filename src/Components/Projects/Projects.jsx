@@ -12,6 +12,7 @@ import deezNutz from "./Imgs/deez-nutz.webp";
 import weedRoom from "./Imgs/thisisengineering-V-AEBD99Hak-unsplash.jpg";
 import bombDrone from "./Imgs/thisisengineering-lfIDAUla2Hw-unsplash.jpg";
 import peepingTom from "./Imgs/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg";
+import observatory from "./Imgs/NOAA CO2.png";
 
 export default function Projects() {
   return (
@@ -22,15 +23,36 @@ export default function Projects() {
           <h1 className="pt-3 pb-3 project-h1">Projects</h1>
           <div className="pt-3 pb-5 card-container">
             <Card className="card-30">
-              <img alt="Actual Nutz" src={deezNutz} className="project-img" />
+              <img
+                alt="Actual Nutz"
+                src={observatory}
+                className="project-img"
+              />
               <CardBody>
-                <CardTitle tag="h5">Deez Nutz</CardTitle>
+                <CardTitle tag="h5">CO2 In Rain</CardTitle>
                 <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Those Nutz
+                  NOAA Observatory
                 </CardSubtitle>
                 <CardText className="project-par">
-                  Deez Nutz are, in fact, Those Nutz as well. It's not a
-                  commonly known fact.
+                  Constants: This project was assigned during my time at
+                  Tennessee Tech with the objective to use the "Bisection
+                  Method" of root finding to calculate the pH of rainwater for
+                  each year listed using the CO2 readings via the National
+                  Oceanic and Atmospheric Administration data collected in
+                  Honolulu Hawaii. Using the given equations for the chemical
+                  make-up of rainwater and the provided constants, I constructed
+                  a formula that would allow MATLAB to calculate the approximate
+                  pH for a specific year. With this formula I can apply the
+                  bisection method to approximate the pH and show the percent
+                  error after a set 35 iterations. Since we can let MATLAB do
+                  the heavy lifting for calculations, we see that the
+                  approximate pH of the rainwater is moving down in pH heading
+                  to be more acidic in nature. The results I found from my
+                  program shows the year, the concentration of CO2 from the NOAA
+                  website and the calculated pH. Years Concentration of CO2 pH
+                  [H+] 1967 322.18 5.626 2.36835e-06 1984 344.87 5.611
+                  2.45018e-06 2001 371.32 5.595 2.54225e-06 2018 408.72 5.574
+                  2.66702e-06
                 </CardText>
                 <Button>View Project</Button>
               </CardBody>
