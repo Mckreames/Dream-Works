@@ -175,7 +175,7 @@ section {
 
 .profile-pic-2 {
   width: 450px;
-  overflow: visible;
+  /* overflow: visible; */
   border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%;
   background: radial-gradient(var(--blue), rgb(1, 38, 68));
 }

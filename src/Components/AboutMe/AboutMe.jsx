@@ -186,7 +186,11 @@ export default function AboutMe() {
             <h2 className="vid-title">
               Bucket List item_ Sunrise on top of the world
             </h2>
-            <p className="vid-text">Bucket and buckets of buckets.</p>
+            <p className="offset-1 col-10 vid-text">
+              Watch the journey as I meet my friend before sunrise at the
+              highest point in the Appalachian mountains to witness the dawns
+              arrival.
+            </p>
           </div>
           <div className="vid-container">
             <iframe
@@ -199,9 +203,9 @@ export default function AboutMe() {
               allowfullscreen
             ></iframe>
             <h2 className="vid-title">Santa Cruz</h2>
-            <p className="vid-text">
-              The government caught Santa and un-bearded him. Turns out, it's
-              just a dude named Cruz.
+            <p className="offset-1 col-10 vid-text">
+              A birds eye look at the Island of Santa Cruz near my hometown in
+              southern California.
             </p>
           </div>
           <div className="vid-container">
@@ -215,7 +219,10 @@ export default function AboutMe() {
               allowfullscreen
             ></iframe>
             <h2 className="vid-title">Strand</h2>
-            <p className="vid-text">String theory. 'Nuff said.</p>
+            <p className="offset-1 col-10 vid-text">
+              Testing my skills as a videographer while my friend surfs the
+              waves of Silver Strand in Oxnard California.
+            </p>
           </div>
           <div className="vid-container">
             <iframe
@@ -228,7 +235,9 @@ export default function AboutMe() {
               allowfullscreen
             ></iframe>
             <h2 className="vid-title">4th of July Fun</h2>
-            <p className="vid-text">Explosions.</p>
+            <p className="offset-1 col-10 vid-text">
+              A look at how southern California celebrates the Fourth of July.
+            </p>
           </div>
           <div className="vid-container">
             <iframe
@@ -241,9 +250,9 @@ export default function AboutMe() {
               allowfullscreen
             ></iframe>
             <h2 className="vid-title">2014 Year Review</h2>
-            <p className="vid-text">
-              A review of the year 2014. If I had two words to describe this
-              year, it would probably be "Twenty" and "Fourteen"
+            <p className="offset-1 col-10 vid-text">
+              A look back into one of the wildest years of my life. Everyone
+              should have a highlight reel of their favorite year.
             </p>
           </div>
         </div>
