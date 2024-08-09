@@ -88,8 +88,8 @@ export default function Home() {
           <div className="col-3 pt-3 card card1">
             <Link to="/projects/">
               <img
-                className="col-3 mb-3 p-3 project-img"
-                alt="project-img"
+                className="col-3 mb-3 p-3 home-project-img"
+                alt="home-project-img"
                 src={Projects}
               />
               <div className="card-text">
@@ -105,8 +105,8 @@ export default function Home() {
           <div className="col-3 pt-3 card card2">
             <Link to="/Activities/">
               <img
-                className="col-3 mb-3 p-3 project-img"
-                alt="project-img"
+                className="col-3 mb-3 p-3 home-project-img"
+                alt="home-project-img"
                 src={activityImg}
               />
               <div className="card-text">
@@ -122,8 +122,8 @@ export default function Home() {
           </div>
           <div className="col-3 pt-3 card card3" onClick={toggleModal}>
             <img
-              className="col-3 p-3 project-img"
-              alt="project-img"
+              className="col-3 p-3 home-project-img"
+              alt="home-project-img"
               src={resume}
             />
             <div className="card-text">

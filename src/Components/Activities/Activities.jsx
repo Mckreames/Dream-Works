@@ -31,12 +31,12 @@ export default function Activities() {
               </li>
               <div className="col mb-1 mt-1 activity-divider"></div>
               <li className="splash-list-item">
-                <div className="list-title">Bomb Drone</div>
+                <div className="list-title">NASA Mars Expedition</div>
                 <div className="list-date">9/11/24</div>
               </li>
               <div className="col mb-1 mt-1 activity-divider"></div>
               <li className="splash-list-item">
-                <div className="list-title">Peeping Tom</div>
+                <div className="list-title">SpaceX Starship</div>
                 <div className="list-date">6/9/24</div>
               </li>
             </ul>
