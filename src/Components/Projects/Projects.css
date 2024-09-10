@@ -31,6 +31,11 @@
   box-shadow: 0px 0px 10px var(--blue);
 }
 
+.card-main-text {
+  color: var(--white);
+  font-size: 40px;
+}
+
 .project-img {
   margin-top: 30px;
   width: 450px;
@@ -38,7 +43,8 @@
 }
 
 .project-par {
-  /* background-color: rgb(58, 69, 78); */
+  font-size: 20px;
+  color: var(--blue);
   border-radius: 20px;
   margin-bottom: -100px;
 }
