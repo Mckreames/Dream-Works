@@ -9,8 +9,8 @@ import github from "../Home/Imgs/Stencil-github.png";
 export default function Footer() {
   return (
     <>
-      <div className="d-flex pt-2 footer-sheet">
-        <div className="col-2 offset-4 contact-bubble contact-left">
+      <div className="d-flex justify-content-center pt-2 footer-sheet">
+        <div className="col-lg-1 col-xxl-2 offset-lg-2 offset-xxl-4 contact-bubble contact-left">
           <img className="contact-logo" alt="site-logo" src={logo} />
           {/* <h2 className="contact-slogan">Dreaming Up Technology</h2> */}
         </div>
