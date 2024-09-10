@@ -57,7 +57,7 @@ export default function Home() {
         </row>
       </section>
       {/* Profile Sect */}
-      <section className="d-flex align-items-center profile-sect">
+      <section className="d-flex d-xs-column align-items-center profile-sect">
         <div className="offset-2 col-3 ps-5 pe-5 pt-3 pb-3 about-text">
           <h1 className="mb-3">Hi, I am Austin</h1>
           <h4 className="mb-3">
@@ -74,6 +74,7 @@ export default function Home() {
             <button className="p-3 about-btn">About Me 👷🏽‍♂️</button>
           </Link>
         </div>
+        <div className="w-100"></div>
         <div className="offset-2">
           <img
             className="mt-3 profile-pic-2"

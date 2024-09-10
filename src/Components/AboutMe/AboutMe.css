@@ -9,12 +9,14 @@
 }
 
 .prof-img {
-  width: 250px;
+  max-width: 400px;
+  background: radial-gradient(var(--blue), #101113 70%);
+  box-shadow: 0 0 10px var(--blue);
+  border-radius: 50px 50px 50px 50px;
 }
 
 .prof-img2 {
-  width: 400px;
-  float: left;
+  width: 350px;
   background: radial-gradient(var(--blue), #101113 70%);
   box-shadow: 0 0 10px var(--blue);
   border-radius: 50px 50px 50px 50px;
@@ -138,4 +140,37 @@
 .pill-container {
   border-left: 3px solid var(--blue);
   border-right: 3px solid var(--blue);
+}
+
+@media (min-width: 300px) {
+  .vid-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .prof-img2 {
+    width: 400px;
+  }
+
+  .about-vid {
+    height: 300px;
+  }
+
+  .vid-container {
+    margin: 0;
+    width: 48%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .prof-img2 {
+    width: 350px;
+  }
+
+  .about-vid {
+    height: 400px;
+  }
 }

@@ -49,13 +49,20 @@ const companies = [
 export default function AboutMe() {
   return (
     <>
-      <section className="prof-splash">
+      <section className="small-prof-splash">
         <img
-          className="offset-2 prof-img2"
+          className="d-lg-none col-9 prof-img"
           alt="Profile Picture"
           src={AboutMeImg}
         />
-        <div className="offset-5 col-5  pe-5 ps-5 pb-1 about-container">
+      </section>
+      <section className="prof-splash">
+        <img
+          className="float-start d-none d-lg-block offset-1 offset-xxl-2 prof-img2"
+          alt="Profile Picture"
+          src={AboutMeImg}
+        />
+        <div className="offset-md-1 offset-lg-5 col-12 col-md-10 col-lg-6  pe-5 ps-5 pb-1 about-container">
           {/* <img className="prof-img" alt="Profile Picture" src={AboutMeImg} /> */}
           <h1>About Me</h1>
           <p>
@@ -94,7 +101,7 @@ export default function AboutMe() {
         </div>
       </section>
       <div className="dividend-container">
-        <div className="offset-2 col-8 dividend"></div>
+        <div className="offset-1 offset-xxl-2 col-10 col-xxl-8 dividend"></div>
       </div>
       {/* <section className="scroll-logos">
         <div className="d-flex align-items-center justify-content-between">
@@ -135,7 +142,7 @@ export default function AboutMe() {
         <section key={index} className="company-section">
           <div className="d-flex align-items-center justify-content-between">
             <div className="text-section">
-              <h2 className="offset-2 col-8 mt-5 mb-5 pb-5 pt-5 collab-title">
+              <h2 className="offset-xl-1 offset-xxl-2 col-11 col-xxl-8 mt-5 mb-5 pb-5 pt-5 collab-title">
                 {company.title}
               </h2>
             </div>
@@ -157,12 +164,12 @@ export default function AboutMe() {
         </section>
       ))}
       <div className="dividend-container">
-        <div className="offset-2 col-8 dividend"></div>
+        <div className="offset-1 offset-xxl-2 col-10 col-xxl-8 dividend"></div>
       </div>
       <section>
-        <div className="offset-1 col-10 pt-5 pb-5 about-me-vid-sect">
+        <div className="offset-1 col-10 ps-xxl-5 pe-xxl-5 pt-5 pb-5 about-me-vid-sect">
           {/* <h3>My Youtube channel!</h3> */}
-          <h3 className="col-7 pt-3 pb-3 about-h3">
+          <h3 className="lh-base col-10 col-xxl-7 ps-2 ps-xxl-0 pe-2 pe-xxl-0 pt-3 pb-3 about-h3">
             Come see what I'm up to on my{" "}
             <span className="p-1 red">YouTube</span> :{" "}
             <a
