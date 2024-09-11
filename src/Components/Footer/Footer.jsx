@@ -10,29 +10,29 @@ export default function Footer() {
   return (
     <>
       <div className="d-flex justify-content-center pt-2 footer-sheet">
-        <div className="col-lg-1 col-xxl-2 offset-lg-2 offset-xxl-4 contact-bubble contact-left">
+        <div className="col-lg-1 col-xxl-2 offset-xxl-1 contact-bubble contact-left">
           <img className="contact-logo" alt="site-logo" src={logo} />
           {/* <h2 className="contact-slogan">Dreaming Up Technology</h2> */}
         </div>
-        <div className="col-4 contact-bubble contact-right">
+        <div className="col-4 offset-1 offset-lg-2 offset-xxl-0 contact-bubble contact-right">
           {/* <h2 className="">Contact Me</h2> */}
-          <h4 className="mt-3">Mobile: (805) 844-6973</h4>
-          <h4 className="mt-4">Email: asdaven15@gmail.com</h4>
-          <div className="mt-4">
+          <h4 className="fs-6 fs-md-3 mt-3">Mobile: (805) 844-6973</h4>
+          <h4 className="fs-6 fs-md-3 mt-4">Email: asdaven15@gmail.com</h4>
+          <div className="fs-6 fs-md-3 mt-4">
             <a
               href="https://www.linkedin.com/in/asdavenus15/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                className="me-5 media-link border-shadow-1"
+                className="me-1 me-md-5 media-link border-shadow-1"
                 alt="LinkedIn"
                 src={linkedIn}
               />
             </a>
             <a href="mailto:Asdaven15@gmail.com?subject=Portfolio%20Inquiry">
               <img
-                className="me-5 media-link border-shadow-2"
+                className="me-1 me-md-5 media-link border-shadow-2"
                 alt="Gmail"
                 src={gmail}
               />

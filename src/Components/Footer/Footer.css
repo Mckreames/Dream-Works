@@ -19,10 +19,6 @@
   /* box-shadow: 0px 0px 15px black; */
 }
 
-.contact-left {
-  /* background-color: #fdfdf3; */
-}
-
 .contact-logo {
   border-radius: 50px;
   width: 200px;
@@ -62,4 +58,14 @@
 .all-rights {
   color: #bec4cc;
   text-decoration-color: none !important;
+}
+
+@media (max-width: 768px) {
+  .contact-logo {
+    width: 130px;
+  }
+
+  .media-link {
+    width: 30px;
+  }
 }
