@@ -11,32 +11,37 @@ export default function Activities() {
       <div className="dark-back">
         <h1 className="pt-5 mb-3 activity-h1">Latest Activities</h1>
         <section className="col-11 dark-back activity-splash">
-          <div className="offset-1 col-7 main-splash">
+          <div className="align-content-center offset-1 col-7 main-splash">
             <img
               alt="Blown out image of an engine"
               src={Engine}
-              className="activity-imgs"
+              className="col-11 activity-imgs"
             />
           </div>
-          <div className="col-4 list-splash">
+          <div className="mt-3 vertical-divider"></div>
+          <div className="align-content-center col-4 list-splash">
             <ul className="no-bullets">
               <li className="splash-list-item">
-                <div className="list-title">Whisper Aero</div>
+                <div className="fs-4 fs-xl-1 list-title">Whisper Aero</div>
                 <div className="list-date">8/8/24</div>
               </li>
               <div className="col mb-1 mt-1 activity-divider"></div>
               <li className="splash-list-item">
-                <div className="list-title">Hermeus and Quarter Horse</div>
+                <div className="fs-4 fs-xl-1 list-title">
+                  Hermeus and Quarter Horse
+                </div>
                 <div className="list-date">4/20/24</div>
               </li>
               <div className="col mb-1 mt-1 activity-divider"></div>
               <li className="splash-list-item">
-                <div className="list-title">NASA Mars Expedition</div>
+                <div className="fs-4 fs-xl-1 list-title">
+                  NASA Mars Expedition
+                </div>
                 <div className="list-date">9/11/24</div>
               </li>
               <div className="col mb-1 mt-1 activity-divider"></div>
               <li className="splash-list-item">
-                <div className="list-title">SpaceX Starship</div>
+                <div className="fs-4 fs-xl-1 list-title">SpaceX Starship</div>
                 <div className="list-date">6/9/24</div>
               </li>
             </ul>
