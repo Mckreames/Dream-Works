@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.b10aa91a.css",
-    "main.js": "/Dream-Works/static/js/main.c76b1e40.js",
+    "main.css": "/Dream-Works/static/css/main.fd817d3f.css",
+    "main.js": "/Dream-Works/static/js/main.8c45d568.js",
     "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
     "static/media/thisisengineering-lfIDAUla2Hw-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-lfIDAUla2Hw-unsplash.d59fab3eff97dce89b91.jpg",
     "static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg": "/Dream-Works/static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.9f4b65375ecd4d3db743.jpg",
@@ -28,12 +28,14 @@
     "static/media/Denso.png": "/Dream-Works/static/media/Denso.9b149231387e32249108.png",
     "static/media/Python.png": "/Dream-Works/static/media/Python.53f15fae5e9bab19ed7d.png",
     "static/media/deez-nutz.webp": "/Dream-Works/static/media/deez-nutz.5a9d6c757db33fe135b0.webp",
+    "static/media/wavesOpacity.svg": "/Dream-Works/static/media/wavesOpacity.c5ca17eebb93f4d220a50fc5fec89f82.svg",
     "index.html": "/Dream-Works/index.html",
-    "main.b10aa91a.css.map": "/Dream-Works/static/css/main.b10aa91a.css.map",
-    "main.c76b1e40.js.map": "/Dream-Works/static/js/main.c76b1e40.js.map"
+    "static/media/bookNegative.svg": "/Dream-Works/static/media/bookNegative.0dded6633291067897de88530686c126.svg",
+    "main.fd817d3f.css.map": "/Dream-Works/static/css/main.fd817d3f.css.map",
+    "main.8c45d568.js.map": "/Dream-Works/static/js/main.8c45d568.js.map"
   },
   "entrypoints": [
-    "static/css/main.b10aa91a.css",
-    "static/js/main.c76b1e40.js"
+    "static/css/main.fd817d3f.css",
+    "static/js/main.8c45d568.js"
   ]
 }
