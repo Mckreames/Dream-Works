@@ -78,8 +78,8 @@ section {
 .profile-sect {
   /* background-image: url("./Imgs/blue-traces4.jpg");
   background-size: cover; */
-  /* background-color: var(--profile-grey); */
-  background-color: black;
+  background-color: var(--profile-grey);
+  /* background: linear-gradient(var(--profile-grey), black); */
   color: var(--white);
   /* background-repeat: no-repeat; */
   width: 100%;
@@ -148,7 +148,8 @@ section {
 
 .profile-pic-2 {
   width: 450px;
-  /* overflow: visible; */
+  border: 3px solid var(--blue);
+  box-shadow: 0px 0px 20px var(--blue);
   border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%;
   background: radial-gradient(var(--blue), rgb(1, 38, 68));
 }
@@ -159,24 +160,8 @@ section {
 
 /* Transition */
 
-.transition {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.transition svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 120px;
-}
-
-.transition .shapefill {
-  fill: #18191d;
+.arrow-img {
+  transform: rotate(180deg);
 }
 
 /* Project Sect */
