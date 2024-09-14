@@ -167,8 +167,7 @@ export default function AboutMe() {
         <div className="offset-1 offset-xxl-2 col-10 col-xxl-8 dividend"></div>
       </div>
       <section>
-        <div className="offset-1 col-10 ps-xxl-5 pe-xxl-5 pt-5 pb-5 about-me-vid-sect">
-          {/* <h3>My Youtube channel!</h3> */}
+        <div className="offset-sm-1 col-sm-10 ps-xxl-5 pe-xxl-5 pt-5 pb-5 about-me-vid-sect">
           <h3 className="lh-base col-10 col-xxl-7 ps-2 ps-xxl-0 pe-2 pe-xxl-0 pt-3 pb-3 about-h3">
             Come see what I'm up to on my{" "}
             <span className="p-1 red">YouTube</span> :{" "}
