@@ -20,7 +20,7 @@ export default function Activities() {
           </div>
           <div className="d-none d-lg-block mt-3 vertical-divider"></div>
           <div className="d-lg-none offset-2 col-8 horizontal-divider"></div>
-          <div className="offset-sm-1 offset-lg-0 col-11 col-sm-10 col-lg-4 list-splash">
+          <div className="offset-1 offset-lg-0 col-10 col-sm-10 col-lg-5 col-xxl-4 ms-xxl-5 pt-lg-5 pt-xl-0 list-splash">
             <ul className="ps-0 no-bullets text-center text-lg-left">
               <a href="#entry1">
                 <li className="splash-list-item" href="#entry1">
