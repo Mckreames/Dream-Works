@@ -17,7 +17,9 @@ export default function Footer() {
         <div className="col-4 offset-1 offset-lg-2 offset-xxl-0 contact-bubble contact-right">
           {/* <h2 className="">Contact Me</h2> */}
           <h4 className="fs-6 fs-md-3 mt-3">Mobile: (805) 844-6973</h4>
-          <h4 className="fs-6 fs-md-3 mt-4">Email: asdaven15@gmail.com</h4>
+          <h4 className="text-break fs-6 fs-md-3 mt-4">
+            Email: asdaven15@gmail.com
+          </h4>
           <div className="fs-6 fs-md-3 mt-4">
             <a
               href="https://www.linkedin.com/in/asdavenus15/"

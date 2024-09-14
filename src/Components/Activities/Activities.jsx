@@ -10,40 +10,45 @@ export default function Activities() {
     <>
       <div className="dark-back">
         <h1 className="pt-5 mb-3 activity-h1">Latest Activities</h1>
-        <section className="col-11 dark-back activity-splash">
-          <div className="align-content-center offset-1 col-7 main-splash">
+        <section className="d-flex flex-column flex-lg-row col col-lg-11 dark-back activity-splash">
+          <div className="align-content-center offset-1 col-lg-7 col-10 mb-5 mb-lg-0 main-splash">
             <img
               alt="Blown out image of an engine"
               src={Engine}
-              className="col-11 activity-imgs"
+              className="col-10 activity-imgs"
             />
           </div>
-          <div className="mt-3 vertical-divider"></div>
-          <div className="align-content-center col-4 list-splash">
-            <ul className="no-bullets">
-              <li className="splash-list-item">
-                <div className="fs-4 fs-xl-1 list-title">Whisper Aero</div>
-                <div className="list-date">8/8/24</div>
-              </li>
+          <div className="d-none d-lg-block mt-3 vertical-divider"></div>
+          <div className="d-lg-none offset-2 col-8 horizontal-divider"></div>
+          <div className="offset-sm-1 offset-lg-0 col-11 col-sm-10 col-lg-4 list-splash">
+            <ul className="ps-0 no-bullets text-center text-lg-left">
+              <a href="#entry1">
+                <li className="splash-list-item" href="#entry1">
+                  <div className="list-title">Whisper Aero</div>
+                  <div className="list-date">8/8/24</div>
+                </li>
+              </a>
               <div className="col mb-1 mt-1 activity-divider"></div>
-              <li className="splash-list-item">
-                <div className="fs-4 fs-xl-1 list-title">
-                  Hermeus and Quarter Horse
-                </div>
-                <div className="list-date">4/20/24</div>
-              </li>
+              <a href="#entry2">
+                <li className="splash-list-item" href="#entry2">
+                  <div className="list-title">Hermeus and Quarter Horse</div>
+                  <div className="list-date">4/20/24</div>
+                </li>
+              </a>
               <div className="col mb-1 mt-1 activity-divider"></div>
-              <li className="splash-list-item">
-                <div className="fs-4 fs-xl-1 list-title">
-                  NASA Mars Expedition
-                </div>
-                <div className="list-date">9/11/24</div>
-              </li>
+              <a href="#entry3">
+                <li className="splash-list-item" href="#entry3">
+                  <div className="list-title">NASA Mars Expedition</div>
+                  <div className="list-date">9/11/24</div>
+                </li>
+              </a>
               <div className="col mb-1 mt-1 activity-divider"></div>
-              <li className="splash-list-item">
-                <div className="fs-4 fs-xl-1 list-title">SpaceX Starship</div>
-                <div className="list-date">6/9/24</div>
-              </li>
+              <a href="#entry4">
+                <li className="splash-list-item" href="#entry4">
+                  <div className="list-title">SpaceX Starship</div>
+                  <div className="list-date">6/9/24</div>
+                </li>
+              </a>
             </ul>
           </div>
         </section>
@@ -51,14 +56,17 @@ export default function Activities() {
           <div className="offset-2 col-8 mt-3 dividend"></div>
         </div>
         <section className="d-flex activity-sect">
-          <div className="offset-1 col-10 activity-entry">
-            <div className="p-5 activity-entries">
+          <div className="offset-sm-1 col-sm-10 activity-entry">
+            <div
+              className="p-3 p-lg-5 flex-column flex-md-row activity-entries"
+              id="entry1"
+            >
               <img
                 src={Engine}
                 alt="blown out picture of the whisper Aero jet engine"
-                className="col-2 activity-img"
+                className="col-10 col-lg-2 activity-img"
               />
-              <div className="ms-3 me-3 vertical-divider"></div>
+              <div className="ms-0 me-0 ms-lg-3 me-lg-3 d-none d-md-block vertical-divider"></div>
               <div className="activity-content">
                 <h2 className="activity-head-text">Whisper Aero</h2>
                 <p className="activity-p-text">
@@ -77,14 +85,18 @@ export default function Activities() {
                 </p>
               </div>
             </div>
-            <div className="col mb-1 mt-1 activity-divider"></div>
-            <div className="p-5 activity-entries">
+            {/* <div className="col mb-1 mt-1 activity-divider"></div> */}
+            <div className="offset-1 col-10 activity-horizontal-divider"></div>
+            <div
+              className="p-3 p-lg-5 flex-column flex-md-row activity-entries"
+              id="entry2"
+            >
               <img
                 src={Jet}
                 alt="blown out picture of the whisper Aero jet engine"
                 className="col-2 activity-img"
               />
-              <div className="ms-3 me-3 vertical-divider"></div>
+              <div className="ms-0 me-0 ms-lg-3 me-lg-3 d-none d-md-block vertical-divider"></div>
               <div className="activity-content">
                 <h2 className="activity-head-text">
                   Hermeus and Quarter Horse
@@ -106,14 +118,19 @@ export default function Activities() {
                 </p>
               </div>
             </div>
-            <div className="col mb-1 mt-1 activity-divider"></div>
-            <div className="p-5 activity-entries">
+            {/* <div className="col mb-1 mt-1 activity-divider"></div> */}
+            <div className="offset-1 col-10 activity-horizontal-divider"></div>
+
+            <div
+              className="p-3 p-lg-5 flex-column flex-md-row activity-entries"
+              id="entry3"
+            >
               <img
                 src={Shuttle}
                 alt="blown out picture of the whisper Aero jet engine"
                 className="col-2 activity-img"
               />
-              <div className="ms-3 me-3 vertical-divider"></div>
+              <div className="ms-0 me-0 ms-lg-3 me-lg-3 d-none d-md-block vertical-divider"></div>
               <div className="activity-content">
                 <h2 className="activity-head-text">NASA Mars Expedition</h2>
                 <p className="activity-p-text">
@@ -131,14 +148,19 @@ export default function Activities() {
                 </p>
               </div>
             </div>
-            <div className="col mb-1 mt-1 activity-divider"></div>
-            <div className="p-5 activity-entries">
+            {/* <div className="col mb-1 mt-1 activity-divider"></div> */}
+            <div className="offset-1 col-10 activity-horizontal-divider"></div>
+
+            <div
+              className="p-3 p-lg-5 flex-column flex-md-row activity-entries"
+              id="entry4"
+            >
               <img
                 src={Starship}
                 alt="blown out picture of the whisper Aero jet engine"
                 className="col-2 activity-img"
               />
-              <div className="ms-3 me-3 vertical-divider"></div>
+              <div className="ms-0 me-0 ms-lg-3 me-lg-3 d-none d-md-block vertical-divider"></div>
               <div className="activity-content">
                 <h2 className="activity-head-text">SpaceX Starship</h2>
                 <p className="activity-p-text">

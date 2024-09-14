@@ -57,16 +57,6 @@ export default function DreamWorksNav() {
                   Activity
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
-                <NavLink to="/Blog/" className="me-4 nav-btn">
-                  Blog
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to="/Blog-Admin/" className="me-4 nav-btn">
-                  Blog Admin
-                </NavLink>
-              </NavItem> */}
               <NavItem>
                 <NavLink to="/about-me/" className="me-4 nav-btn">
                   About Me
@@ -82,17 +72,6 @@ export default function DreamWorksNav() {
                   Resume
                 </NavLink>
               </NavItem>
-              {/* <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Options
-                </DropdownToggle>
-                <DropdownMenu end>
-                  <DropdownItem>Option 1</DropdownItem>
-                  <DropdownItem>Option 2</DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>Reset</DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown> */}
             </Nav>
             <NavbarText>
               <a
@@ -101,14 +80,14 @@ export default function DreamWorksNav() {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="me-4 media-link border-shadow-3"
+                  className="me-1 me-lg-4 media-link border-shadow-3"
                   alt="LinkedIn"
                   src={linkedIn}
                 />
               </a>
               <a href="mailto:Asdaven15@gmail.com?subject=Portfolio%20Inquiry">
                 <img
-                  className="me-4 media-link border-shadow-4"
+                  className="me-1 me-lg-4 media-link border-shadow-4"
                   alt="Gmail"
                   src={gmail}
                 />
@@ -119,7 +98,7 @@ export default function DreamWorksNav() {
                 rel="noopener noreferrer"
               >
                 <img
-                  className="me-5 media-link border-shadow-1"
+                  className="me-2 me-lg-5 media-link border-shadow-1"
                   alt="GitHub"
                   href="https://github.com/WingingItUS"
                   src={github}
