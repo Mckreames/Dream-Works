@@ -140,13 +140,13 @@ export default function AboutMe() {
       </section> */}
       {companies.map((company, index) => (
         <section key={index} className="company-section">
-          <div className="d-flex align-items-center justify-content-between">
+          <div className="d-flex flex-column flex-lg-row align-items-center justify-content-between">
             <div className="text-section">
-              <h2 className="offset-xl-1 offset-xxl-2 col-11 col-xxl-8 mt-5 mb-5 pb-5 pt-5 collab-title">
+              <h2 className="offset-xl-1 offset-xxl-2 col-12 col-lg-11 col-xxl-8 mt-5 mb-5 pb-5 pt-5 collab-title">
                 {company.title}
               </h2>
             </div>
-            <div className="col-8 collab-sect">
+            <div className="col-12 col-lg-8 collab-sect">
               <div className="collab-container">
                 {company.images
                   .concat(company.images)
