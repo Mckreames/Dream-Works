@@ -68,7 +68,7 @@ export default function Home() {
             src={arrow}
           />
         </div>
-        <div className="d-flex d-xs-column align-items-center work-around-for-arrow-transition">
+        <div className="d-flex flex-column-reverse flex-lg-row align-items-center work-around-for-arrow-transition">
           <div className="offset-1 col-5 ps-5 pe-5 pt-3 pb-3 align-content-center about-text">
             <h1 className="mb-3">Hi, I'm Austin</h1>
             <h4 className="mb-3">
@@ -87,14 +87,14 @@ export default function Home() {
           </div>
           <div className="offset-1">
             <img
-              className="mt-3 profile-pic-2"
+              className="mt-3 mb-3 col-12 col-lg-10 col-xl-12 profile-pic-2"
               alt="profile-pic"
               src={profilePic}
             />
           </div>
         </div>
       </section>
-      <section className="pt-0 pb-5 project-sect" id="contact-me">
+      <section className="pt-0 pb-5 project-sect">
         <div>
           <img
             className="w-100 transition-img"
@@ -103,8 +103,8 @@ export default function Home() {
           />
         </div>
         <h2 className="pt-4 pb-4">Try Your Best to Keep Up!</h2>
-        <div className="offset-2 d-flex mt-4">
-          <div className="col-3 pt-3 card card1">
+        <div className="offset-sm-1 offset-md-3 offset-lg-2 d-flex flex-column flex-lg-row mt-4">
+          <div className="col-sm-10 col-md-8 col-lg-3 pt-3 card card1">
             <Link to="/projects/">
               <img
                 className="col-3 mb-3 p-3 home-project-img"
@@ -121,7 +121,7 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <div className="col-3 pt-3 card card2">
+          <div className="col-sm-10 col-md-8 col-lg-3 pt-3 card card2">
             <Link to="/Activities/">
               <img
                 className="col-3 mb-3 p-3 home-project-img"
@@ -139,14 +139,17 @@ export default function Home() {
               </div>
             </Link>
           </div>
-          <div className="col-3 pt-3 card card3" onClick={toggleModal}>
+          <div
+            className="col-sm-10 col-md-8 col-lg-3 pt-3 card card3"
+            onClick={toggleModal}
+          >
             <img
               className="col-3 p-3 home-project-img"
               alt="home-project-img"
               src={resume}
             />
             <div className="card-text">
-              <h3>Resume</h3>
+              <h3 id="contact-me">Resume</h3>
               <p>
                 Here, you will be able to view my resume and download a pdf
                 copy.

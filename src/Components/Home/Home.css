@@ -168,14 +168,14 @@ section {
 }
 
 .profile-pic-2 {
-  width: 450px;
+  /* width: 450px; */
   border: 3px solid var(--blue);
   box-shadow: 0px 0px 20px var(--blue);
   border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%;
   /* background: radial-gradient(var(--blue), rgb(1, 38, 68)); */
   /* background-color: #20242e; */
   background: radial-gradient(var(--blue), #101113 70%);
-  animation: float 6s ease-in-out infinite;
+  /* animation: float 6s ease-in-out infinite; */
 }
 
 @keyframes float {
@@ -251,4 +251,10 @@ section {
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .profile-sect {
+    height: 1400px;
+  }
 }
