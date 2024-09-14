@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.df10ee2a.css",
-    "main.js": "/Dream-Works/static/js/main.513667ec.js",
+    "main.css": "/Dream-Works/static/css/main.251b87b9.css",
+    "main.js": "/Dream-Works/static/js/main.4a9712bb.js",
     "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
     "static/media/thisisengineering-lfIDAUla2Hw-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-lfIDAUla2Hw-unsplash.d59fab3eff97dce89b91.jpg",
     "static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg": "/Dream-Works/static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.9f4b65375ecd4d3db743.jpg",
@@ -32,11 +32,11 @@
     "index.html": "/Dream-Works/index.html",
     "static/media/bookNegative.svg": "/Dream-Works/static/media/bookNegative.0dded6633291067897de88530686c126.svg",
     "static/media/triangle.svg": "/Dream-Works/static/media/triangle.691638ac83f9845679f899b15e069e82.svg",
-    "main.df10ee2a.css.map": "/Dream-Works/static/css/main.df10ee2a.css.map",
-    "main.513667ec.js.map": "/Dream-Works/static/js/main.513667ec.js.map"
+    "main.251b87b9.css.map": "/Dream-Works/static/css/main.251b87b9.css.map",
+    "main.4a9712bb.js.map": "/Dream-Works/static/js/main.4a9712bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.df10ee2a.css",
-    "static/js/main.513667ec.js"
+    "static/css/main.251b87b9.css",
+    "static/js/main.4a9712bb.js"
   ]
 }
