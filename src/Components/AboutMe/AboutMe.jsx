@@ -167,8 +167,8 @@ export default function AboutMe() {
         <div className="offset-1 offset-xxl-2 col-10 col-xxl-8 dividend"></div>
       </div>
       <section>
-        <div className="offset-sm-1 col-sm-10 ps-xxl-5 pe-xxl-5 pt-5 pb-5 about-me-vid-sect">
-          <h3 className="lh-base col-10 col-xxl-7 ps-2 ps-xxl-0 pe-2 pe-xxl-0 pt-3 pb-3 about-h3">
+        <div className="d-flex flex-column flex-lg-row justify-content-center offset-sm-1 col-sm-10 ps-1 ps-sm-0 ps-xxl-5 pe-1 pe-sm-0 pe-xxl-5 pt-5 pb-5 about-me-vid-sect">
+          <h3 className="offset-sm-1 offset-lg-0 lh-base col-12 col-sm-10 col-xxl-7 ps-2 ps-xxl-0 pe-2 pe-xxl-0 pt-3 pb-3 about-h3">
             Come see what I'm up to on my{" "}
             <span className="p-1 red">YouTube</span> :{" "}
             <a
@@ -179,7 +179,7 @@ export default function AboutMe() {
               @WingingIt
             </a>
           </h3>
-          <div className="vid-container">
+          <div className="offset-sm-1 offset-lg-0 col-12 col-sm-10 vid-container">
             <iframe
               className="about-vid"
               src="https://www.youtube.com/embed/LMPdNyQvXiI"
@@ -198,7 +198,7 @@ export default function AboutMe() {
               arrival.
             </p>
           </div>
-          <div className="vid-container">
+          <div className="offset-sm-1 offset-lg-0 col-12 col-sm-10 vid-container">
             <iframe
               className="about-vid"
               src="https://www.youtube.com/embed/APbCPUImgqs"
@@ -214,7 +214,7 @@ export default function AboutMe() {
               southern California.
             </p>
           </div>
-          <div className="vid-container">
+          <div className="offset-sm-1 offset-lg-0 col-12 col-sm-10 vid-container">
             <iframe
               className="about-vid"
               src="https://www.youtube.com/embed/OuSvtnWMnjg"
@@ -230,7 +230,7 @@ export default function AboutMe() {
               waves of Silver Strand in Oxnard California.
             </p>
           </div>
-          <div className="vid-container">
+          <div className="offset-sm-1 offset-lg-0 col-12 col-sm-10 vid-container">
             <iframe
               className="about-vid"
               src="https://www.youtube.com/embed/oETLm0db9QU"
@@ -245,7 +245,7 @@ export default function AboutMe() {
               A look at how southern California celebrates the Fourth of July.
             </p>
           </div>
-          <div className="vid-container">
+          <div className="offset-sm-1 offset-lg-0 col-12 col-sm-10 vid-container">
             <iframe
               className="about-vid"
               src="https://www.youtube.com/embed/6utjmpT1ryM"
