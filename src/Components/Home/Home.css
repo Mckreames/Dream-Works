@@ -11,6 +11,7 @@ section {
 }
 
 .main-event {
+  height: 500px;
   position: relative;
   background: transparent;
   color: var(--white);
@@ -24,7 +25,7 @@ section {
   height: 100%;
   object-fit: contain;
   transform: translate(-50%, -50%);
-  z-index: 0;
+  /* z-index: 0; */
   /* background: radial-gradient(#bec4cc 80%, #212529); */
   background: linear-gradient(
     90deg,
@@ -41,26 +42,43 @@ section {
 }
 
 .row-quote-1 {
-  z-index: 999 !important;
+  position: relative;
+  /* border: 1px solid red; */
 }
 
 .row-quote-2 {
+  position: relative;
+  /* border: 1px solid red; */
 }
 
 .splash-quote {
   padding: 10px;
   display: inline-block;
   min-height: 130px;
-  /* border: 3px solid black; */
-  box-shadow: 0px 0px 10px rgb(53, 53, 53);
+  /* box-shadow: 0px 0px 10px rgb(53, 53, 53); */
+  /* border: 3px solid var(--blue); */
+  /* box-shadow: 0px 0px 20px var(--blue); */
   border-radius: 20px;
-  background: rgb(53, 91, 122);
-  /* background: rgb(53, 91, 122); */
-  /* background: rgb(78, 89, 99); */
+  font-weight: bold;
+  /* background: #101946; */
+  /* background: radial-gradient(#454c6d, #797d81); */
+  background: radial-gradient(rgb(1, 38, 68), rgb(30, 96, 150));
   z-index: 999;
 }
 
 .splash-quote:hover {
+}
+
+.quote1 {
+}
+
+.quote2 {
+}
+
+.quote3 {
+}
+
+.quote4 {
 }
 
 .splash-title {
@@ -79,8 +97,8 @@ section {
   /* background-image: url("./Imgs/blue-traces4.jpg");
   background-size: cover; */
   max-height: 800px;
-  background-color: var(--profile-grey);
-  /* background: linear-gradient(var(--profile-grey), black); */
+  /* background-color: var(--profile-grey); */
+  background: linear-gradient(#bdc4cc, #6871a3, #3d4157, var(--profile-grey));
   color: var(--white);
   /* background-repeat: no-repeat; */
   width: 100%;
@@ -165,6 +183,7 @@ section {
 
 .arrow-img {
   transform: rotate(180deg);
+  height: 60px;
 }
 
 /* Project Sect */

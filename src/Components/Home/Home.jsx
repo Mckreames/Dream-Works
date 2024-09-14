@@ -12,6 +12,7 @@ import github from "./Imgs/Stencil-github.png";
 import ResumeModal from "../ResumeModal/ResumeModal";
 import waves from "./Imgs/wavesOpacity.svg";
 import arrow from "./Imgs/bookNegative.svg";
+import triangle from "./Imgs/triangle.svg";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -27,36 +28,36 @@ export default function Home() {
           <source src={brick} type="video/mp4" />
           Your browser does not support this video
         </video>
-        <row className="row-quote-1">
-          <div className="col-3 splash-quote">
+        <div className="row-quote-1">
+          <div className="col-3 splash-quote quote1">
             <h3 className="splash-title">PRECISION</h3>
             <p>This 3d model is a 1:1 scale of a LEGO brick.</p>
           </div>
-          <div className="offset-5 col-3 splash-quote">
+          <div className="offset-5 col-3 splash-quote quote2">
             <h3 className="splash-title">ASSOCIATION</h3>
             <p>
               Using the modeling software, the brick is given properties
               proportional to its real world counterpart
             </p>
           </div>
-        </row>
-        <div className="m-5 p-5 box-art"></div>
-        <row className="row-quote-2">
-          <div className="col-3 splash-quote">
+        </div>
+        <div className="m-4 p-5 box-art"></div>
+        <div className="row-quote-2">
+          <div className="col-3 splash-quote quote3">
             <h3 className="splash-title">SIMULATION</h3>
             <p>
               With this model, physical stress simulations will Reflect accurate
               approximations of internal forces.
             </p>
           </div>
-          <div className="offset-5 col-3 me-auto splash-quote">
+          <div className="offset-5 col-3 me-auto splash-quote quote4">
             <h3 className="splash-title">APPLICATION</h3>
             <p>
               Preforming these steps show that any project with Great care can
               produce quality and interesting results.
             </p>
           </div>
-        </row>
+        </div>
       </section>
       {/* Profile Sect */}
       <section className="pt-0 profile-sect">
