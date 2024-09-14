@@ -106,14 +106,15 @@ section {
 
 .about-text {
   border-radius: 10px;
-  border: 3px solid var(--blue);
+  /* border: 3px solid var(--blue); */
   box-shadow: 0px 0px 20px var(--blue);
   height: 350px;
   /* border-left: 5px double steelblue;
   border-right: 5px double steelblue; */
   /* background: radial-gradient(rgb(1, 38, 68), steelblue); */
   /* background: radial-gradient(rgb(1, 38, 68), rgb(30, 96, 150)); */
-  background: #20242e;
+  /* background: #20242e; */
+  background: radial-gradient(var(--blue), #101113);
 }
 
 .magic {
@@ -172,7 +173,21 @@ section {
   box-shadow: 0px 0px 20px var(--blue);
   border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%;
   /* background: radial-gradient(var(--blue), rgb(1, 38, 68)); */
-  background-color: #20242e;
+  /* background-color: #20242e; */
+  background: radial-gradient(var(--blue), #101113 70%);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .profile-text {

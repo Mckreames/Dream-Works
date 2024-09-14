@@ -19,7 +19,7 @@
 }
 
 .card-30 {
-  width: 30%;
+  /* width: 30%; */
   background-color: #1a1d24;
   margin-bottom: 10px;
   border: 2px solid var(--blue);
@@ -33,12 +33,12 @@
 
 .card-main-text {
   color: var(--white);
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .project-img {
   margin-top: 30px;
-  width: 450px;
+  object-fit: cover;
   height: 300px;
 }
 

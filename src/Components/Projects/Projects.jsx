@@ -19,14 +19,14 @@ export default function Projects() {
     <>
       {/* Card Container */}
       <div className="pt-5 pb-5 dark-back">
-        <div className="offset-1 col-10 project-border">
+        <div className="offset-sm-1 col-12 col-sm-10 project-border">
           <h1 className="pt-3 pb-3 project-h1">Projects</h1>
-          <div className="pt-3 pb-5 card-container">
-            <Card className="card-30">
+          <div className="d-flex flex-wrap justify-content-center pt-3 pb-5 card-container">
+            <Card className="col-12 col-md-10 col-xl-5 col-xxl-3 card-30">
               <img
                 alt="Actual Nutz"
                 src={observatory}
-                className="project-img"
+                className="col-12 project-img"
               />
               <CardBody>
                 <CardTitle tag="h5" className="card-main-text">
@@ -39,8 +39,12 @@ export default function Projects() {
                 <Button>Download Project PDF</Button>
               </CardBody>
             </Card>
-            <Card className="card-30">
-              <img alt="Weed Room" src={weedRoom} className="project-img" />
+            <Card className="col-12 col-md-10 col-xl-5 col-xxl-3 card-30">
+              <img
+                alt="Weed Room"
+                src={weedRoom}
+                className="col-12 project-img"
+              />
               <CardBody>
                 <CardTitle tag="h5" className="card-main-text">
                   Lego Brick Stress Test
@@ -53,8 +57,12 @@ export default function Projects() {
               </CardBody>
             </Card>
 
-            <Card className="card-30">
-              <img alt="Bomb Drone" src={bombDrone} className="project-img" />
+            <Card className="col-12 col-md-10 col-xl-5 col-xxl-3 card-30">
+              <img
+                alt="Bomb Drone"
+                src={bombDrone}
+                className="col-12 project-img"
+              />
               <CardBody>
                 <CardTitle tag="h5" className="card-main-text">
                   Bomb Drone
@@ -67,8 +75,12 @@ export default function Projects() {
               </CardBody>
             </Card>
 
-            <Card className="card-30">
-              <img alt="Peeping Tom" src={peepingTom} className="project-img" />
+            <Card className="col-12 col-md-10 col-xl-5 col-xxl-3 card-30">
+              <img
+                alt="Peeping Tom"
+                src={peepingTom}
+                className="col-12 project-img"
+              />
               <CardBody>
                 <CardTitle tag="h5" className="card-main-text">
                   Peeping Tom
