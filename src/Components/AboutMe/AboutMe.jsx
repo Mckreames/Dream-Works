@@ -153,7 +153,7 @@ export default function AboutMe() {
                   .map((image, imgIndex) => (
                     <img
                       key={imgIndex}
-                      className="collab-img"
+                      className="col-6 col-sm-4 col-md-4 col-lg-6 col-xl-5 col-xxl-4 collab-img"
                       alt={image.alt}
                       src={image.src}
                     />
