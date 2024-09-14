@@ -78,6 +78,7 @@ section {
 .profile-sect {
   /* background-image: url("./Imgs/blue-traces4.jpg");
   background-size: cover; */
+  max-height: 800px;
   background-color: var(--profile-grey);
   /* background: linear-gradient(var(--profile-grey), black); */
   color: var(--white);
@@ -89,11 +90,12 @@ section {
   border-radius: 10px;
   border: 3px solid var(--blue);
   box-shadow: 0px 0px 20px var(--blue);
+  height: 350px;
   /* border-left: 5px double steelblue;
   border-right: 5px double steelblue; */
   /* background: radial-gradient(rgb(1, 38, 68), steelblue); */
-  background: radial-gradient(rgb(1, 38, 68), rgb(30, 96, 150));
-  /* background: steelblue; */
+  /* background: radial-gradient(rgb(1, 38, 68), rgb(30, 96, 150)); */
+  background: #20242e;
 }
 
 .magic {
@@ -151,7 +153,8 @@ section {
   border: 3px solid var(--blue);
   box-shadow: 0px 0px 20px var(--blue);
   border-radius: 46% 54% 75% 25% / 57% 74% 26% 43%;
-  background: radial-gradient(var(--blue), rgb(1, 38, 68));
+  /* background: radial-gradient(var(--blue), rgb(1, 38, 68)); */
+  background-color: #20242e;
 }
 
 .profile-text {

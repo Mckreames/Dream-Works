@@ -68,8 +68,8 @@ export default function Home() {
           />
         </div>
         <div className="d-flex d-xs-column align-items-center work-around-for-arrow-transition">
-          <div className="offset-1 col-5 ps-5 pe-5 pt-3 pb-3 about-text">
-            <h1 className="mb-3">Hi, I am Austin</h1>
+          <div className="offset-1 col-5 ps-5 pe-5 pt-3 pb-3 align-content-center about-text">
+            <h1 className="mb-3">Hi, I'm Austin</h1>
             <h4 className="mb-3">
               <span className="magic">Mechanical Engineer</span>
             </h4>
@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="pt-0 project-sect" id="contact-me">
+      <section className="pt-0 pb-5 project-sect" id="contact-me">
         <div>
           <img
             className="w-100 transition-img"
