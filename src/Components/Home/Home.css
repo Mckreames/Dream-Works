@@ -96,7 +96,7 @@ section {
 .profile-sect {
   /* background-image: url("./Imgs/blue-traces4.jpg");
   background-size: cover; */
-  max-height: 800px;
+  height: auto;
   /* background-color: var(--profile-grey); */
   background: linear-gradient(#bdc4cc, #6871a3, #3d4157, var(--profile-grey));
   color: var(--white);
@@ -255,6 +255,6 @@ a {
 
 @media (max-width: 991px) {
   .profile-sect {
-    height: 1400px;
+    height: 1100px;
   }
 }

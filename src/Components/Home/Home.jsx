@@ -69,7 +69,7 @@ export default function Home() {
           />
         </div>
         <div className="d-flex flex-column-reverse flex-lg-row align-items-center work-around-for-arrow-transition">
-          <div className="offset-1 col-5 ps-5 pe-5 pt-3 pb-3 align-content-center about-text">
+          <div className="offset-md-1 col-12 col-md-5 ps-2 ps-lg-5 pe-2 pe-lg-5 pt-0 pt-lg-3 pb-0 pb-lg-3 align-content-center about-text">
             <h1 className="mb-3">Hi, I'm Austin</h1>
             <h4 className="mb-3">
               <span className="magic">Mechanical Engineer</span>
@@ -85,7 +85,7 @@ export default function Home() {
               <button className="p-3 about-btn">About Me 👷🏽‍♂️</button>
             </Link>
           </div>
-          <div className="offset-1">
+          <div className="offset-md-1">
             <img
               className="mt-3 mb-3 col-12 col-lg-10 col-xl-12 profile-pic-2"
               alt="profile-pic"
