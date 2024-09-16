@@ -70,13 +70,17 @@ export default function Home() {
         </div>
         <div className="d-flex flex-column-reverse flex-lg-row align-items-center work-around-for-arrow-transition">
           <div className="offset-md-1 col-12 col-md-5 ps-2 ps-lg-5 pe-2 pe-lg-5 pt-0 pt-lg-3 pb-0 pb-lg-3 align-content-center about-text">
-            <h1 className="mb-3">Hi, I'm Austin</h1>
-            <h4 className="mb-3">
+            <h1 className="mb-3 prof-h1">I'm Austin</h1>
+            {/* <h4 className="mb-3">
               <span className="magic">Mechanical Engineer</span>
-            </h4>
-            <p className="mb-3">
-              An enthusiastic and passionate engineer with an eye for detail, a
-              hunger to learn more, and a focus to produce quality work
+            </h4> */}
+            <p className="fs-5 mb-3">
+              <i>
+                An enthusiastic and passionate engineer with an eye for detail,
+                a hunger to learn more, and a focus to produce quality work. I
+                studied with a focus in Aerospace and hope to push our nations
+                limits through my work.
+              </i>
             </p>
             <a href="#contact-me">
               <button className="p-3 me-2 contact-btn">Contact Me 💨</button>

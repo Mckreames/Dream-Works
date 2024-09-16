@@ -55,30 +55,15 @@ section {
   padding: 10px;
   display: inline-block;
   min-height: 130px;
-  /* box-shadow: 0px 0px 10px rgb(53, 53, 53); */
+  color: var(--white);
+  box-shadow: 0px 0px 10px rgb(53, 53, 53);
   /* border: 3px solid var(--blue); */
   /* box-shadow: 0px 0px 20px var(--blue); */
   border-radius: 20px;
-  font-weight: bold;
   /* background: #101946; */
   /* background: radial-gradient(#454c6d, #797d81); */
   background: radial-gradient(rgb(1, 38, 68), rgb(30, 96, 150));
   z-index: 999;
-}
-
-.splash-quote:hover {
-}
-
-.quote1 {
-}
-
-.quote2 {
-}
-
-.quote3 {
-}
-
-.quote4 {
 }
 
 .splash-title {
@@ -115,6 +100,10 @@ section {
   /* background: radial-gradient(rgb(1, 38, 68), rgb(30, 96, 150)); */
   /* background: #20242e; */
   background: radial-gradient(var(--blue), #101113);
+}
+
+.prof-h1 {
+  /* text-decoration: underline var(--blue); */
 }
 
 .magic {
