@@ -59,6 +59,35 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="splash-quote-small">
+        <div className="">
+          <div>
+            <h3 className="splash-title">PRECISION</h3>
+            <p>This 3d model is a 1:1 scale of a LEGO brick.</p>
+          </div>
+          <div>
+            <h3 className="splash-title">ASSOCIATION</h3>
+            <p>
+              Using the modeling software, the brick is given properties
+              proportional to its real world counterpart
+            </p>
+          </div>
+          <div>
+            <h3 className="splash-title">SIMULATION</h3>
+            <p>
+              With this model, physical stress simulations will Reflect accurate
+              approximations of internal forces.
+            </p>
+          </div>
+          <div>
+            <h3 className="splash-title">APPLICATION</h3>
+            <p>
+              Preforming these steps show that any project with Great care can
+              produce quality and interesting results.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* Profile Sect */}
       <section className="pt-0 profile-sect">
         <div className="d-flex justify-content-center">
