@@ -261,8 +261,13 @@ a {
     /* border: 1px solid red; */
   }
 
+  .splash-underline {
+    border-bottom: 3px solid rgb(211, 211, 224);
+  }
+
   .splash-title {
     font-size: 22px;
+    border-bottom: none;
   }
 
   .splash-quote {
@@ -274,6 +279,8 @@ a {
   .splash-quote-small {
     background: linear-gradient(#6871a3, #bdc4cc 60%);
     display: block;
+    color: white;
+    background: linear-gradient(rgb(1, 38, 68), rgb(30, 96, 150));
   }
 }
 
