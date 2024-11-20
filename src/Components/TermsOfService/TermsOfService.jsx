@@ -10,14 +10,14 @@ export default function TermsOfService() {
           <p>
             Welcome to my Engineering Portfolio. By accessing or using this
             website, you agree to comply with and be bound by the following
-            terms and conditions of use, which together with our privacy policy
+            terms and conditions of use, which together with my privacy policy
             govern my relationship with you in relation to this website.
           </p>
           <h4>1. Acceptance of Terms</h4>
           <p>
             By accessing or using this site, you agree to be bound by these
-            Terms of Service and our Privacy Policy. If you do not agree with
-            any part of these terms, you must not use this website.
+            Terms of Service and my Privacy Policy. If you do not agree with any
+            part of these terms, you must not use this website.
           </p>
           <h4>2. Use of Site</h4>
           <p>
@@ -64,21 +64,21 @@ export default function TermsOfService() {
           <p>
             I am committed to protecting and respecting your privacy. This
             Privacy Notice explains how we collect, use, disclose, and safeguard
-            your information when you visit our website [Your Portfolio URL].
+            your information.
           </p>
           <h4>1. Information We Collect</h4>
           <p>
             We may collect personal identification information from Users in a
-            variety of ways, including, but not limited to, when Users visit our
+            variety of ways, including, but not limited to, when Users visit my
             site, register on the site, and in connection with other activities,
-            services, features, or resources we make available on our site.
-            Users may be asked for, as appropriate, name, email address.
+            services, features, or resources we make available on my site. Users
+            may be asked for, as appropriate, name, number, or email address.
           </p>
           <h4> 2. How We Use Collected Information</h4>
           <p>
             We may collect and use Users' personal information for the following
-            purposes: To improve customer service To personalize user experience
-            To improve our site To send periodic emails
+            purposes: To stay in touch with potential clients. To keep track of
+            potential job prospects. To improve my site. To send periodic emails
           </p>
           <h4> 3. How We Protect Your Information</h4>
           <p>
@@ -88,8 +88,18 @@ export default function TermsOfService() {
             information.
           </p>
           <h4> 4. Sharing Your Personal Information</h4>
-          <p>We do not sell, trade, or rent Users</p>
+          <p>We do not sell, trade, or rent your information</p>
         </div>
+      </section>
+      <section>
+        <h2 className="terms-title">Attributions</h2>
+        <ul>
+          <li>
+            <a href="https://pngtree.com/freepng/resume-employee-hiring-hr-profile-line-icon--vector-isolated_3748478.html">
+              Resume image from pngtree.com/
+            </a>
+          </li>
+        </ul>
       </section>
     </>
   );

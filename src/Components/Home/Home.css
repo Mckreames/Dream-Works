@@ -242,6 +242,21 @@ a {
   text-decoration: none;
 }
 
+.home-contact-sect {
+  border-radius: 20px;
+  box-shadow: 0 0 10px var(--blue);
+  background: #272a30;
+}
+
+.home-contact-title {
+  color: var(--white);
+}
+
+.contact-label {
+  color: white;
+  font-size: 18px;
+}
+
 @media (max-width: 991px) {
   .profile-sect {
     height: 1100px;

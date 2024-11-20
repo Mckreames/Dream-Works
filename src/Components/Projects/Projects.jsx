@@ -84,15 +84,14 @@ export default function Projects() {
               />
               <CardBody>
                 <CardTitle tag="h5" className="card-main-text">
-                  Proximity Sensor
+                  Proximity Optics
                 </CardTitle>
                 <CardSubtitle
                   className="mb-2 white-text"
                   tag="h6"
                 ></CardSubtitle>
                 <CardText className="pt-3 project-par">
-                  Proximity moudle made to retro-fit onto assisted steering
-                  vehicles
+                  Proximity-optic moudle for AI powered humanoid robots
                 </CardText>
                 <Button>Download Project PDF</Button>
               </CardBody>

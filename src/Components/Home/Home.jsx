@@ -12,8 +12,9 @@ import github from "./Imgs/Stencil-github.png";
 import ResumeModal from "../ResumeModal/ResumeModal";
 import waves from "./Imgs/wavesOpacity.svg";
 import arrow from "./Imgs/bookNegative.svg";
-import triangle from "./Imgs/triangle.svg";
+import resumePng from "./Imgs/resume-icon.png";
 import { Link } from "react-router-dom";
+import { Input, Form, FormGroup, Label, Button } from "reactstrap";
 
 export default function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -181,7 +182,7 @@ export default function Home() {
             <img
               className="col-3 p-3 home-project-img"
               alt="home-project-img"
-              src={resume}
+              src={resumePng}
             />
             <div className="card-text">
               <h3 id="contact-me">Resume</h3>
@@ -189,6 +190,49 @@ export default function Home() {
                 Here, you will be able to view my resume and download a pdf
                 copy.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="">
+        <div className="offset-sm-1 offset-md-2 offset-lg-4 col-sm-10 col-md-8 col-lg-4 p-3 mb-5 home-contact-sect">
+          <h2 className="mb-5 home-contact-title">I'll Contact You</h2>
+          <div>
+            {/* <div className="offset-1 col-4"></div> */}
+            <div className="offset-1 col-10">
+              <Form>
+                <FormGroup>
+                  <Label className="contact-label" for="name">
+                    Name
+                  </Label>
+                  <Input type="name" name="name" id="name" placeholder="" />
+                </FormGroup>
+                <FormGroup>
+                  <Label className="contact-label" for="phone">
+                    Phone #
+                  </Label>
+                  <Input type="phone" name="phone" id="phone" placeholder="" />
+                </FormGroup>
+                <FormGroup>
+                  <Label className="contact-label" for="email">
+                    Email
+                  </Label>
+                  <Input type="email" name="email" id="email" placeholder="" />
+                </FormGroup>
+                <FormGroup className="d-flex flex-start" check>
+                  <Input type="checkbox" />{" "}
+                  <Label className="ps-3 contact-label" check>
+                    Call Me
+                  </Label>
+                </FormGroup>
+                <FormGroup className="d-flex flex-start" check>
+                  <Input type="checkbox" />{" "}
+                  <Label className="ps-3 contact-label" check>
+                    Email Me
+                  </Label>
+                </FormGroup>
+                <Button className="mt-4">Submit</Button>
+              </Form>
             </div>
           </div>
         </div>

@@ -4,4 +4,13 @@
 
 .terms-title {
   text-align: center;
+  color: white;
+}
+
+.terms-text > p {
+  color: beige;
+}
+
+.terms-text > h4 {
+  color: white;
 }
