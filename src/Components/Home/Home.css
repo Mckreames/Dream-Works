@@ -245,7 +245,13 @@ a {
 .home-contact-sect {
   border-radius: 20px;
   box-shadow: 0 0 10px var(--blue);
-  background: #272a30;
+  background: linear-gradient(
+    45deg,
+    #272a30,
+    transparent,
+    #272a30,
+    transparent
+  );
 }
 
 .home-contact-title {
