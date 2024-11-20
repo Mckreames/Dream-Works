@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Dream-Works/static/css/main.2905d6cc.css",
-    "main.js": "/Dream-Works/static/js/main.7e8e6441.js",
+    "main.css": "/Dream-Works/static/css/main.7fdc3679.css",
+    "main.js": "/Dream-Works/static/js/main.d0ab2a75.js",
     "static/media/thisisengineering-V-AEBD99Hak-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-V-AEBD99Hak-unsplash.4e01d0e305069a3d09a1.jpg",
     "static/media/thisisengineering-lfIDAUla2Hw-unsplash.jpg": "/Dream-Works/static/media/thisisengineering-lfIDAUla2Hw-unsplash.d59fab3eff97dce89b91.jpg",
     "static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg": "/Dream-Works/static/media/gabriel-vasiliu-fCJi6nVU27o-unsplash.9f4b65375ecd4d3db743.jpg",
@@ -14,11 +14,13 @@
     "static/media/profile-color-removebg-preview.png": "/Dream-Works/static/media/profile-color-removebg-preview.983116a98b52b8b9e5e2.png",
     "static/media/Engine.png": "/Dream-Works/static/media/Engine.6ee9468c5c7834d3519c.png",
     "static/media/project-img.png": "/Dream-Works/static/media/project-img.6ee9468c5c7834d3519c.png",
+    "static/media/resume-icon.png": "/Dream-Works/static/media/resume-icon.3e7a0aa3cbc9768566cd.png",
     "static/media/frontal-color-removebg-preview.png": "/Dream-Works/static/media/frontal-color-removebg-preview.ef1cff638e65c811db92.png",
     "static/media/starship.jpeg": "/Dream-Works/static/media/starship.a83d6360f1739527aff4.jpeg",
     "static/media/AustinSDavenportResume.pdf": "/Dream-Works/static/media/AustinSDavenportResume.9576137ccfc934c00320.pdf",
     "static/media/Harbor-Freight.png": "/Dream-Works/static/media/Harbor-Freight.3f4087bdd8ec1ad9b744.png",
     "static/media/SolidWorks.png": "/Dream-Works/static/media/SolidWorks.1d06131b1c33df7fde7a.png",
+    "static/media/2x4_Brick_Sim1-Shear Test-Image-1.jpg": "/Dream-Works/static/media/2x4_Brick_Sim1-Shear Test-Image-1.38a04ec21653724e2a0a.jpg",
     "static/media/GetImage.jpeg": "/Dream-Works/static/media/GetImage.da3d3f3976497c9f5d06.jpeg",
     "static/media/Matlab.png": "/Dream-Works/static/media/Matlab.1c76b48d96b644ad4891.png",
     "static/media/University-of-Tennessee.png": "/Dream-Works/static/media/University-of-Tennessee.22bdd85d0cb1135cb42e.png",
@@ -27,16 +29,14 @@
     "static/media/SpaceShuttle.jpg": "/Dream-Works/static/media/SpaceShuttle.2b59c01700178113fd5b.jpg",
     "static/media/Denso.png": "/Dream-Works/static/media/Denso.9b149231387e32249108.png",
     "static/media/Python.png": "/Dream-Works/static/media/Python.53f15fae5e9bab19ed7d.png",
-    "static/media/deez-nutz.webp": "/Dream-Works/static/media/deez-nutz.5a9d6c757db33fe135b0.webp",
     "static/media/wavesOpacity.svg": "/Dream-Works/static/media/wavesOpacity.6db3ea165eb988f234962607336806de.svg",
     "index.html": "/Dream-Works/index.html",
     "static/media/bookNegative.svg": "/Dream-Works/static/media/bookNegative.0dded6633291067897de88530686c126.svg",
-    "static/media/triangle.svg": "/Dream-Works/static/media/triangle.691638ac83f9845679f899b15e069e82.svg",
-    "main.2905d6cc.css.map": "/Dream-Works/static/css/main.2905d6cc.css.map",
-    "main.7e8e6441.js.map": "/Dream-Works/static/js/main.7e8e6441.js.map"
+    "main.7fdc3679.css.map": "/Dream-Works/static/css/main.7fdc3679.css.map",
+    "main.d0ab2a75.js.map": "/Dream-Works/static/js/main.d0ab2a75.js.map"
   },
   "entrypoints": [
-    "static/css/main.2905d6cc.css",
-    "static/js/main.7e8e6441.js"
+    "static/css/main.7fdc3679.css",
+    "static/js/main.d0ab2a75.js"
   ]
 }
