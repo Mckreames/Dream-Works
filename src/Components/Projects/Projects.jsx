@@ -8,7 +8,7 @@ import {
   CardText,
   Button,
 } from "reactstrap";
-import deezNutz from "./Imgs/deez-nutz.webp";
+import legoBrick from "./Imgs/2x4_Brick_Sim1-Shear Test-Image-1.jpg";
 import weedRoom from "./Imgs/thisisengineering-V-AEBD99Hak-unsplash.jpg";
 import bombDrone from "./Imgs/thisisengineering-lfIDAUla2Hw-unsplash.jpg";
 import peepingTom from "./Imgs/gabriel-vasiliu-fCJi6nVU27o-unsplash.jpg";
@@ -24,7 +24,7 @@ export default function Projects() {
           <div className="d-flex flex-wrap justify-content-center pt-3 pb-5 card-container">
             <Card className="col-12 col-md-10 col-xl-5 col-xxl-3 card-30">
               <img
-                alt="Actual Nutz"
+                alt="NOAA CO2 Observatory"
                 src={observatory}
                 className="col-12 project-img"
               />
@@ -41,8 +41,8 @@ export default function Projects() {
             </Card>
             <Card className="col-12 col-md-10 col-xl-5 col-xxl-3 card-30">
               <img
-                alt="Weed Room"
-                src={weedRoom}
+                alt="Lego Brick Stress Test"
+                src={legoBrick}
                 className="col-12 project-img"
               />
               <CardBody>
@@ -59,17 +59,18 @@ export default function Projects() {
 
             <Card className="col-12 col-md-10 col-xl-5 col-xxl-3 card-30">
               <img
-                alt="Bomb Drone"
+                alt="DIY Seismic Tracker"
                 src={bombDrone}
                 className="col-12 project-img"
               />
               <CardBody>
                 <CardTitle tag="h5" className="card-main-text">
-                  Bomb Drone
+                  Seismic Tracker
                 </CardTitle>
                 <CardSubtitle className="mb-2" tag="h6"></CardSubtitle>
                 <CardText className="pt-3 project-par">
-                  A drone designed to disarm bombs from the air
+                  Tracks the seismic activity of the earth intuitively and
+                  affordably
                 </CardText>
                 <Button>Download Project PDF</Button>
               </CardBody>
@@ -77,20 +78,21 @@ export default function Projects() {
 
             <Card className="col-12 col-md-10 col-xl-5 col-xxl-3 card-30">
               <img
-                alt="Peeping Tom"
+                alt="Proximity Sensor"
                 src={peepingTom}
                 className="col-12 project-img"
               />
               <CardBody>
                 <CardTitle tag="h5" className="card-main-text">
-                  Peeping Tom
+                  Proximity Sensor
                 </CardTitle>
                 <CardSubtitle
                   className="mb-2 white-text"
                   tag="h6"
                 ></CardSubtitle>
                 <CardText className="pt-3 project-par">
-                  X-ray capable dual cameras
+                  Proximity moudle made to retro-fit onto assisted steering
+                  vehicles
                 </CardText>
                 <Button>Download Project PDF</Button>
               </CardBody>
